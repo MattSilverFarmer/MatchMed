@@ -1,0 +1,457 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "EKG", "icon": "📈" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Troponin-Erhöhung", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "ST-Hebung", "icon": "⚡" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Koronarangiographie", "icon": "🔍" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "PTCA", "icon": "💉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Thrombozytenaggregationshemmer", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Frühmospitalisation", "icon": "🏥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Herzfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Unterbauchschmerz", "icon": "😖" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Leukozytenmessung", "icon": "🧪" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Bildgebung", "name": "Abdominalultraschall", "icon": "🩻" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Akute Appendizitis", "icon": "🔥" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Entscheidung", "name": "Indikation zur Appendektomie", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Laparoskopische Appendektomie", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Präoperative Antibiotikaprophylaxe", "icon": "💊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Postoperative Überwachung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Erfolgreiche Genesung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Plötzliche Schwäche", "icon": "⚡" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Neurologische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "CT Gehirn", "icon": "🖼️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Ischämischer Infarkt", "icon": "💥" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Labortest", "name": "Blutgerinnung", "icon": "🩸" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Thrombolyse", "icon": "💉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Endovaskuläre Thrombektomie", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Antiplättchen-Therapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Rehabilitationsplanung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Atemnot", "icon": "🌬️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Peak-Flow Messung", "icon": "📉" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Asthma", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Therapie", "name": "Inhalative Bronchodilatation", "icon": "💨" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Medikament", "name": "Beta-2-Agonisten", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Monitoring", "name": "Pulsoximetrie", "icon": "📊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Management", "name": "Asthma-Action-Plan", "icon": "📋" },
+      { "x": 4, "y": 1, "visible": false, "category": "Beratung", "name": "Elternaufklärung", "icon": "💬" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Atmung", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenzufriedenheit", "icon": "👍" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📆" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Dokumentation", "name": "Therapieprotokoll", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Tachykardie & Übelkeit", "icon": "😰" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Blutzucker hoch", "icon": "📊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Diabetische Ketoazidose", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Flüssigkeitstherapie", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Management", "name": "Insulintherapie", "icon": "💉" },
+      { "x": 6, "y": 1, "visible": false, "category": "Monitoring", "name": "Vitalparameter", "icon": "📈" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Beratung", "name": "Ernährungsberatung", "icon": "🥗" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Stoffwechselwerte", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Oligurie", "icon": "💧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Erhöhter Kreatininspiegel", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Akutes Nierenversagen", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Flüssigkeitsmanagement", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Notfalldialyse", "icon": "💉" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Diuretika", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Monitoring", "name": "Überwachung der Vitalparameter", "icon": "📊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Team", "name": "Interdisziplinäre Abstimmung", "icon": "👥" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Nierenfunktion", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Regelmäßige Dialyse-Kontrolle", "icon": "📆" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Chronischer Husten", "icon": "🤧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Spirographie", "icon": "📉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "COPD", "icon": "💨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Inhalative Behandlung", "icon": "💨" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Pulsoximetrie", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verbesserte Atemfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schmerz im Oberschenkel", "icon": "😣" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Röntgen Femur", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Femurfraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Intramedulläre Nagelung", "icon": "🔧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Kontroll-Röntgen", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Frakturheilung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Nachsorge", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schwere Hüftschmerzen", "icon": "😖" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen der Hüfte", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Hüftarthrose", "icon": "⚠️" },
+      { "x": 2, "y": 3, "visible": false, "category": "Planung", "name": "Endoprothesenplanung", "icon": "📐" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Hüftimplantation", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Postoperative Therapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Hüftfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Knoten in der Brust", "icon": "🔎" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Mammographie", "icon": "🖼️" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Biopsie", "icon": "🔍" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Invasives Karzinom", "icon": "🚩" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Labortest", "name": "Hormonrezeptorstatus", "icon": "🧪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Neoadjuvante Chemotherapie", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Brusterhaltende Operation", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Adjuvante Hormontherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Follow-up Mammographie", "icon": "📊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Team", "name": "Tumorboard", "icon": "👥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Tumorfrei", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitnachsorge", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Blut im Stuhl", "icon": "🩸" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Koloskopie", "icon": "🔍" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Kolonkarzinom", "icon": "🚩" },
+      { "x": 4, "y": 1, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Darmresektion", "icon": "🔪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Postoperative Chemo", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Kontrollkoloskopie", "icon": "📋" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Tumorfrei", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Ohrenschmerzen", "icon": "🤕" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "Tympanometrie", "icon": "📈" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Akute Otitis media", "icon": "🔥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Antibiotische Therapie", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Monitoring", "name": "Vitalparameter überwachen", "icon": "📊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Management", "name": "Elternaufklärung", "icon": "💬" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📋" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Ohrfunktion", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenrückmeldung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" },
+      { "x": 5, "y": 4, "visible": false, "category": "Dokumentation", "name": "Behandlungsprotokoll", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Neugeborenenuntersuchung", "icon": "👶" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Blutkultur", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Neonatale Sepsis", "icon": "🚨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Intravenöse Antibiotika", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Vitalparameter", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schmerz im Unterarm", "icon": "😣" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Röntgenaufnahme", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Radiusfraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Volar Plattenosteosynthese", "icon": "🔧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Kontrollröntgen", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Frakturheilung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Nachsorge", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schmerz im Oberschenkel", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Femur", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Femurfraktur", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Intramedulläre Nagelung", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerzmanagement", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Frakturheilung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 16,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Knoten in der Brust", "icon": "🔎" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Mammographie", "icon": "🖼️" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Biopsie", "icon": "🔍" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Invasives Karzinom", "icon": "🚩" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Labortest", "name": "Hormonrezeptorstatus", "icon": "🧪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Neoadjuvante Chemotherapie", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Brusterhaltende Operation", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Adjuvante Hormontherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Follow-up Mammographie", "icon": "📊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Team", "name": "Tumorboard", "icon": "👥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Tumorfrei", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitnachsorge", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 17,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Blut im Stuhl", "icon": "🩸" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Koloskopie", "icon": "🔍" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Kolonkarzinom", "icon": "🚩" },
+      { "x": 4, "y": 1, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Darmresektion", "icon": "🔪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Postoperative Chemo", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Kontrollkoloskopie", "icon": "📋" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Tumorfrei", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 18,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Ohrenschmerzen", "icon": "🤕" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "Tympanometrie", "icon": "📈" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Akute Otitis media", "icon": "🔥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Antibiotische Therapie", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Monitoring", "name": "Vitalparameter überwachen", "icon": "📊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Management", "name": "Elternaufklärung", "icon": "💬" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📋" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Ohrfunktion", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenrückmeldung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" },
+      { "x": 5, "y": 4, "visible": false, "category": "Dokumentation", "name": "Behandlungsprotokoll", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 19,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Neugeborenenuntersuchung", "icon": "👶" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Blutkultur", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Neonatale Sepsis", "icon": "🚨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Intravenöse Antibiotika", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Vitalparameter", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 20,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schmerz im Oberschenkel", "icon": "😣" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Röntgen Femur", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Femurfraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Intramedulläre Nagelung", "icon": "🔧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerzmanagement", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Kontroll-Röntgen", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Frakturheilung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Nachsorge", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 21,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schwere Hüftschmerzen", "icon": "😖" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen der Hüfte", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Hüftarthrose", "icon": "⚠️" },
+      { "x": 2, "y": 3, "visible": false, "category": "Planung", "name": "Endoprothesenplanung", "icon": "📐" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Hüftimplantation", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Postoperative Therapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Hüftfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 22,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Brustknoten", "icon": "🔎" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Mammographie", "icon": "🖼️" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Biopsie", "icon": "🔍" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Invasives Karzinom", "icon": "🚩" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Labortest", "name": "Hormonrezeptorstatus", "icon": "🧪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Neoadjuvante Chemotherapie", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Brusterhaltende Operation", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Adjuvante Hormontherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Follow-up Mammographie", "icon": "📊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Team", "name": "Tumorboard", "icon": "👥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Tumorfrei", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitnachsorge", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 23,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Hautausschlag", "icon": "🩸" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Dermatologische Untersuchung", "icon": "🩺" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Labortest", "name": "Biopsie", "icon": "🔍" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Melanom", "icon": "🚩" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Chirurgische Resektion", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Postoperative Radiotherapie", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrolle", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 24,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Ohrenschmerzen", "icon": "🤕" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Tympanometrie", "icon": "📈" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Akute Otitis media", "icon": "🔥" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Antibiotische Therapie", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Management", "name": "Elternaufklärung", "icon": "💬" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Ohrfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" },
+      { "x": 5, "y": 2, "visible": true,  "category": "Feedback", "name": "Patientenfeedback", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": false, "category": "Dokumentation", "name": "Behandlungsprotokoll", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 25,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Embryologie", "name": "Zahnknospe", "icon": "🌱" },
+      { "x": 2, "y": 1, "visible": false, "category": "Embryologie", "name": "Zahnblastem", "icon": "🧬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Weisheitszahn sichtbar", "icon": "🦷" },
+      { "x": 4, "y": 1, "visible": false, "category": "Planung", "name": "Extraktionsindikation", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Chirurgische Entfernung", "icon": "🔪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Postoperative Kontrolle", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 26,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Zahnempfindlichkeit", "icon": "😖" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Intraorales Röntgen", "icon": "🩻" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Luxation des Zahns", "icon": "💥" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Entscheidung", "name": "Reposition indiziert", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Manuelle Reposition", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Lokalanästhesie", "icon": "💉" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Stabilisierungsmaßnahmen", "icon": "🏥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Wiederhergestellte Zahnstellung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Nachsorge & Kontrolle", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 27,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Zahnfleischrückgang", "icon": "🔻" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Taschenmessung", "icon": "📏" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Parodontale Erkrankung", "icon": "⚠️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Bindegewebstransplantation", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Lokale Desinfektion", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": false, "category": "Ergebnis", "name": "Verbesserte Zahnfleischkontur", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Abschluss", "name": "Langzeitüberwachung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 28,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Panoramaröntgen", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Mehrfache Zahnfrakturen", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "Digitale OP-Planung", "icon": "📐" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Rekonstruktive Chirurgie", "icon": "🔪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Material", "name": "Keramische Restaurierung", "icon": "🦷" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Technik", "name": "CAD/CAM", "icon": "🖥️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Kein Medikament", "icon": "❌" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Prothesenanpassung", "icon": "🔨" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Optimale Rekonstruktion", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitüberwachung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 29,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Fehlstellung der Zähne", "icon": "🔍" },
+      { "x": 2, "y": 1, "visible": false, "category": "Planung", "name": "Kieferanalyse", "icon": "📐" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Kieferorthopädische Behandlung", "icon": "🏥" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Chirurgisch assistierte Kieferorthopädie", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Kein Medikament", "icon": "❌" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Zahnstellung", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitbetreuung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 30,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schmerzen und Geschwüre", "icon": "😖" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Intraorale Untersuchung", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Labortest", "name": "Mikrobiologie", "icon": "🧫" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Candida-Infektion", "icon": "⚠️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Antimykotische Behandlung", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Monitoring", "name": "Infektionsparameter überwachen", "icon": "📊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Beratung", "name": "Hygienemaßnahmen", "icon": "💬" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrolle", "icon": "📋" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Heilung der Infektion", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" },
+      { "x": 5, "y": 4, "visible": false, "category": "Dokumentation", "name": "Behandlungsprotokoll", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 31,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Forschung", "name": "Studienplanung", "icon": "🔬" },
+      { "x": 2, "y": 1, "visible": false, "category": "Forschung", "name": "Ethikkommission", "icon": "⚖️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Forschung", "name": "Patienteneinwilligung", "icon": "📝" },
+      { "x": 4, "y": 1, "visible": false, "category": "Forschung", "name": "Datenerhebung", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Forschung", "name": "Statistische Analyse", "icon": "📈" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Publikation", "icon": "📚" }
+    ]
+  }
+]

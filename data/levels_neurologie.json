@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Plötzliche Hemiparese", "icon": "⚡" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "CT des Gehirns", "icon": "🖼️" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Blutgerinnung prüfen", "icon": "🩸" },
+      { "x": 1, "y": 4, "visible": false, "category": "Intervention", "name": "Thrombolyse einleiten", "icon": "💉" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Medikament", "name": "Alteplase", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Monitoring", "name": "Vitalparameter überwachen", "icon": "📊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Endovaskuläre Thrombektomie", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Team", "name": "Interdisziplinäre Besprechung", "icon": "👥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Rekanalisierung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Rehabilitationsplanung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Bewusstseinsstörung", "icon": "😵" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "CT-Scan", "icon": "🖼️" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Intrazerebrale Blutung", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "Intervention", "name": "Chirurgische Evakuierung", "icon": "🔪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Blutdruckkontrolle", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Neuromonitoring", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Minimal-invasive Resektion", "icon": "🔧" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile neurologische Funktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Vorübergehende Lähmung", "icon": "⚡" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Neurologische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Blutdruckmessung", "icon": "📈" },
+      { "x": 1, "y": 4, "visible": false, "category": "Bildgebung", "name": "MRT des Gehirns", "icon": "🖼️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Ergebnis", "name": "TIA bestätigt", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Antiplättchen-Therapie", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Lebensstiländerung", "icon": "🏃‍♂️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Langzeit-Blutdruckkontrolle", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Beratung", "name": "Risikofaktorenmanagement", "icon": "💬" },
+      { "x": 5, "y": 2, "visible": false, "category": "Medikament", "name": "Statine", "icon": "💊" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Vermeidung weiterer TIA", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Unkontrollierte Muskelzuckungen", "icon": "💥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "EEG Aufnahme", "icon": "📈" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Epileptiforme Aktivität", "icon": "⚡" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Akutmedikation", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Benzodiazepine", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Monitoring", "name": "EEG-Überwachung", "icon": "📊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Therapie", "name": "Langzeitantikonvulsiva", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Anfallsfreiheit", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Autoimmunreaktion", "icon": "🔥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Zelltyp", "name": "Aktivierung T-Zellen", "icon": "🧬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Pathway", "name": "Myelinzerstörung", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "MRI Läsionen", "icon": "🖼️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Immunmodulatoren", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Interferon Beta", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Pathway", "name": "Axonale Degeneration", "icon": "⚡" },
+      { "x": 8, "y": 1, "visible": false, "category": "Monitoring", "name": "Klinische Verlaufskontrolle", "icon": "📊" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabilisierung der Symptome", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Regelmäßige MRI", "icon": "📆" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Dopaminmangel im Substantia nigra", "icon": "🧠" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Levodopa", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Dopaminagonisten", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Bewegungstests", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verbesserte Motorik", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Kopfschmerzen und Übelkeit", "icon": "🤕" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Neurologische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "MRT Gehirn", "icon": "🖼️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Glioblastom", "icon": "🚩" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Entscheidung", "name": "Chirurgische Indikation", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Neuronavigation", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Tumorresektion", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Intraoperative Chemotherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Postoperative MRT", "icon": "📋" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Reduktion der Tumorlast", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Heftige Kopfschmerzen", "icon": "💥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "CT des Schädels", "icon": "🖼️" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Subarachnoidalblutung", "icon": "⚠️" },
+      { "x": 2, "y": 3, "visible": false, "category": "Intervention", "name": "Endovaskuläre Embolisation", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Calciumantagonisten", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Neuroüberwachung", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Clip-Befestigung", "icon": "🔒" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Gefäßstruktur", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Neuronale Hyperexzitabilität", "icon": "⚡" },
+      { "x": 2, "y": 1, "visible": false, "category": "Pathway", "name": "Trigeminovaskuläres System", "icon": "🧠" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Triptane", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Schmerztherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Symptomtagebuch", "icon": "📓" },
+      { "x": 6, "y": 1, "visible": false, "category": "Beratung", "name": "Auslöseridentifikation", "icon": "💬" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Anfallsreduktion", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Verlust der Sensibilität", "icon": "⚡" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "MRT des Rückenmarks", "icon": "🖼️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Spinalverletzung", "icon": "💥" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Entscheidung", "name": "Chirurgische Indikation", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Dekompression", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Steroide", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Neuromotorik", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Rehabilitationsplanung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Taubheitsgefühl in den Füßen", "icon": "👣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Blutzuckerkontrolle", "icon": "🩸" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Diabetische Neuropathie", "icon": "⚠️" },
+      { "x": 2, "y": 3, "visible": false, "category": "Intervention", "name": "Neurologische Untersuchung", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Antikonvulsiva", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Beratung", "name": "Ernährungsumstellung", "icon": "🥗" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Symptomverbesserung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Autoimmunreaktion an der NMJ", "icon": "🧬" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Antikörpertest", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Acetylcholinesterase-Hemmer", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Plasmapherese", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Klinische Verlaufskontrolle", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Symptomverbesserung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Proteinaggregation", "icon": "⚙️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Neurologische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Genetische Marker", "icon": "🧬" },
+      { "x": 1, "y": 4, "visible": false, "category": "Bildgebung", "name": "MRT Hirn", "icon": "🖼️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Diagnose", "name": "Alzheimer-Demenz", "icon": "🧠" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Medikamentöse Behandlung", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Pathway", "name": "Synaptischer Verlust", "icon": "⚡" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Klinischer Verlauf", "icon": "📈" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Beratung", "name": "Patienten- und Angehörigenberatung", "icon": "💬" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabiler Krankheitsverlauf", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Anhaltender Anfall", "icon": "💥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "EEG", "icon": "📈" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Benzodiazepine", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Intravenöse Antikonvulsiva", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "EEG-Überwachung", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Therapie", "name": "Intensivmedizinische Betreuung", "icon": "🏥" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Abbruch des Status epilepticus", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Feedback", "name": "Nachsorgeplanung", "icon": "💬" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Fieber & Nackensteifigkeit", "icon": "🌡️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Lumbalpunktion", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Meningitis", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Antibiotika-Therapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Entscheidung", "name": "Therapieindikation", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Monitoring", "name": "CSF-Analyse", "icon": "📊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Intervention", "name": "Supportive Therapie", "icon": "💉" },
+      { "x": 8, "y": 1, "visible": false, "category": "Team", "name": "Interdisziplinäre Abstimmung", "icon": "👥" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Klinische Besserung", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📆" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 16,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Neuronale Hyperexzitabilität", "icon": "⚡" },
+      { "x": 2, "y": 1, "visible": false, "category": "Pathway", "name": "Trigeminovaskuläres System", "icon": "🧠" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Triptane", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Schmerztherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Symptomtagebuch", "icon": "📓" },
+      { "x": 6, "y": 1, "visible": false, "category": "Beratung", "name": "Auslöseridentifikation", "icon": "💬" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Anfallsreduktion", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 17,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Molekular", "name": "Rezeptoraktivierung", "icon": "🔑" },
+      { "x": 1, "y": 2, "visible": false, "category": "Enzym", "name": "G-Protein-Aktivierung", "icon": "⚙️" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Signal", "name": "Adenylylcyclase", "icon": "🔬" },
+      { "x": 1, "y": 4, "visible": false, "category": "Signal", "name": "cAMP-Produktion", "icon": "🔋" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Effekt", "name": "PKA-Aktivierung", "icon": "⚡" },
+      { "x": 2, "y": 1, "visible": false, "category": "Translation", "name": "Genexpression", "icon": "📝" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Funktion", "name": "Neuronale Plastizität", "icon": "🌱" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verstärkte Signalübertragung", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Feedback", "name": "Rückkopplungshemmung", "icon": "🔄" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Stabile neuronale Funktion", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 18,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Motoneuronendegeneration", "icon": "🧠" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "EMG Untersuchung", "icon": "📈" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Riluzol", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Verlaufskontrolle", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verlangsamter Krankheitsverlauf", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 19,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Bildgebung", "name": "MRA des Gehirns", "icon": "🖼️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Aneurysma", "icon": "⚠️" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Intervention", "name": "Endovaskuläres Coiling", "icon": "🔧" },
+      { "x": 2, "y": 3, "visible": false, "category": "Medikament", "name": "Antikoagulation", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Neuroüberwachung", "icon": "📊" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Clip-Befestigung", "icon": "🔒" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 5, "y": 2, "visible": false, "category": "Ergebnis", "name": "Stabile Gefäßstruktur", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 20,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Notfall", "name": "Plötzliche Bewusstlosigkeit", "icon": "🚨" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Schnelle CT-Untersuchung", "icon": "🖼️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Notfallthrombolyse", "icon": "💉" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Thrombolytika", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter überwachen", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Team", "name": "Notfallteam koordinieren", "icon": "👥" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile neurologische Funktion", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Abschluss", "name": "Dokumentation", "icon": "🏁" },
+      { "x": 5, "y": 2, "visible": true,  "category": "Feedback", "name": "Teamdebriefing", "icon": "💬" }
+    ]
+  }
+]

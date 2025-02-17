@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Substrat", "name": "Glukose", "icon": "🍬" },
+      { "x": 1, "y": 2, "visible": false, "category": "Enzym", "name": "Hexokinase", "icon": "🔬" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Metabolit", "name": "Glukose-6-phosphat", "icon": "⚗️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Enzym", "name": "Phosphoglucose-Isomerase", "icon": "🔬" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Metabolit", "name": "Fructose-6-phosphat", "icon": "⚗️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Enzym", "name": "Phosphofructokinase", "icon": "🔬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Metabolit", "name": "Fructose-1,6-bisphosphat", "icon": "⚗️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Enzym", "name": "Aldolase", "icon": "🔬" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Metabolit", "name": "Glycerinaldehyd-3-phosphat", "icon": "⚗️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Endprodukt", "name": "Pyruvat", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Metabolit", "name": "Acetyl-CoA", "icon": "🧬" },
+      { "x": 2, "y": 1, "visible": false, "category": "Enzym", "name": "Citrate Synthase", "icon": "🔬" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Metabolit", "name": "Citrate", "icon": "⚗️" },
+      { "x": 2, "y": 3, "visible": false, "category": "Enzym", "name": "Aconitase", "icon": "🔬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Metabolit", "name": "Isocitrate", "icon": "⚗️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Enzym", "name": "Isocitrate Dehydrogenase", "icon": "🔬" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Metabolit", "name": "α-Ketoglutarat", "icon": "⚗️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Enzym", "name": "α-Ketoglutarat Dehydrogenase", "icon": "🔬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Metabolit", "name": "Succinyl-CoA", "icon": "⚗️" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Nerv", "name": "Aktionspotential", "icon": "⚡" },
+      { "x": 1, "y": 2, "visible": false, "category": "Ionen", "name": "Calciumkanalöffnung", "icon": "💧" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Synapse", "name": "Vesikelfusion", "icon": "🔄" },
+      { "x": 1, "y": 4, "visible": false, "category": "Neurotransmitter", "name": "Dopaminfreisetzung", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Rezeptor", "name": "Dopaminbindung", "icon": "🔑" },
+      { "x": 2, "y": 1, "visible": false, "category": "Intrazellulär", "name": "Signaltransduktion", "icon": "⚙️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Zellstoffwechsel", "name": "cAMP-Produktion", "icon": "🔋" },
+      { "x": 4, "y": 1, "visible": false, "category": "Enzym", "name": "PKA-Aktivierung", "icon": "🔬" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Transkription", "name": "Genexpression", "icon": "📝" },
+      { "x": 5, "y": 2, "visible": false, "category": "Translation", "name": "Proteinproduktion", "icon": "🧬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Neuroplastizität", "name": "Synaptische Plastizität", "icon": "🌱" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Rückkopplung", "icon": "🔄" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Regulation", "name": "Modulation", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Neuroendokrinologie", "name": "Hypothalamus", "icon": "🧠" },
+      { "x": 2, "y": 1, "visible": false, "category": "Hormonausschüttung", "name": "CRH-Sekretion", "icon": "💧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Endokrin", "name": "Hypophysenvorderlappen", "icon": "🏥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Hormonausschüttung", "name": "ACTH-Freisetzung", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Organ", "name": "Nebennierenrinde", "icon": "🏥" },
+      { "x": 6, "y": 1, "visible": false, "category": "Metabolit", "name": "Cortisolproduktion", "icon": "⚗️" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Physiologie", "name": "Stressreaktion", "icon": "🔥" },
+      { "x": 8, "y": 1, "visible": false, "category": "Feedback", "name": "Feedback-Inhibition", "icon": "🔄" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 13, "visible": true,  "category": "Sensorik", "name": "Niedriger Blutdruck", "icon": "📉" },
+      { "x": 2, "y": 1,  "visible": false, "category": "Enzym", "name": "Reninfreisetzung", "icon": "🔬" },
+      { "x": 3, "y": 1,  "visible": true,  "category": "Substrat", "name": "Angiotensinogen", "icon": "🧬" },
+      { "x": 4, "y": 1,  "visible": false, "category": "Metabolit", "name": "Angiotensin I", "icon": "⚗️" },
+      { "x": 5, "y": 1,  "visible": true,  "category": "Enzym", "name": "ACE (Angiotensin-Converting Enzyme)", "icon": "🔬" },
+      { "x": 6, "y": 1,  "visible": false, "category": "Metabolit", "name": "Angiotensin II", "icon": "⚗️" },
+      { "x": 7, "y": 1,  "visible": true,  "category": "Hormon", "name": "Aldosteronfreisetzung", "icon": "💧" },
+      { "x": 8, "y": 1,  "visible": false, "category": "Reaktion", "name": "Vasokonstriktion", "icon": "🔒" },
+      { "x": 9, "y": 1,  "visible": true,  "category": "Feedback", "name": "Blutdruckanstieg", "icon": "📈" },
+      { "x": 5, "y": 2,  "visible": false, "category": "Elektrolyt", "name": "Niedriger Kaliumspiegel", "icon": "⚡" },
+      { "x": 5, "y": 3,  "visible": true,  "category": "Feedback", "name": "Renale Rückkopplung", "icon": "🔄" },
+      { "x": 5, "y": 4,  "visible": false, "category": "Ergebnis", "name": "Normale Homöostase", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Nerv", "name": "Aktionspotential", "icon": "⚡" },
+      { "x": 2, "y": 1, "visible": false, "category": "Signal", "name": "Calciumfreisetzung", "icon": "💧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Regulation", "name": "Troponinbindung", "icon": "🧩" },
+      { "x": 4, "y": 1, "visible": false, "category": "Muskel", "name": "Kontraktion", "icon": "💪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Energie", "name": "ATP-Verbrauch", "icon": "⚡" },
+      { "x": 6, "y": 1, "visible": false, "category": "Erholung", "name": "Relaxation", "icon": "🛌" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Atmung", "name": "Luftinhalation", "icon": "🌬️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Struktur", "name": "Bronchialverzweigung", "icon": "🌿" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Atemwege", "name": "Alveolen", "icon": "🫁" },
+      { "x": 2, "y": 3, "visible": false, "category": "Physiologie", "name": "Gasaustausch", "icon": "⚗️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Transport", "name": "Sauerstoffaufnahme", "icon": "💨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Transport", "name": "CO₂-Abgabe", "icon": "💨" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Feedback", "name": "Blutgasanalyse", "icon": "📊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Ergebnis", "name": "Homöostase", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Regulation", "name": "Regulatorische Anpassung", "icon": "🔄" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Hormon", "name": "Insulinfreisetzung", "icon": "💉" },
+      { "x": 1, "y": 2, "visible": false, "category": "Rezeptor", "name": "Insulinbindung", "icon": "🔑" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Signaltransduktion", "name": "IRS-Aktivierung", "icon": "⚙️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Enzym", "name": "PI3K-Aktivierung", "icon": "🔬" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Signaltransduktion", "name": "Akt-Aktivierung", "icon": "⚡" },
+      { "x": 2, "y": 1, "visible": false, "category": "Transport", "name": "GLUT4-Translokation", "icon": "🚚" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Metabolit", "name": "Glukoseaufnahme", "icon": "🍬" },
+      { "x": 4, "y": 1, "visible": false, "category": "Stoffwechsel", "name": "Glykogensynthese", "icon": "⚗️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Stoffwechsel", "name": "Lipogenese", "icon": "🍟" },
+      { "x": 5, "y": 2, "visible": false, "category": "Stoffwechsel", "name": "Proteinbiosynthese", "icon": "🧬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Wachstum", "name": "Zellwachstum", "icon": "🌱" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Feedback", "icon": "🔄" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Homöostase", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Filtration", "name": "Glomeruläre Filtration", "icon": "💧" },
+      { "x": 1, "y": 2, "visible": false, "category": "Struktur", "name": "Bowman'sche Kapsel", "icon": "🛡️" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Reabsorption", "name": "Proximaler Tubulus", "icon": "🔄" },
+      { "x": 1, "y": 4, "visible": false, "category": "Transport", "name": "Schleife von Henle", "icon": "↕️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Sezernierung", "name": "Distaler Tubulus", "icon": "🔄" },
+      { "x": 2, "y": 1, "visible": false, "category": "Hormon", "name": "Aldosteronwirkung", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Konzentrierung", "name": "Sammelrohr", "icon": "⚗️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Osmose", "name": "Wasserreabsorption", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Harnbildung", "icon": "🏁" },
+      { "x": 6, "y": 1, "visible": false, "category": "Feedback", "name": "Homöostase", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Herz", "name": "Herzkontraktion", "icon": "❤️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Kreislauf", "name": "Schlagvolumen", "icon": "💓" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Gefäße", "name": "Gefäßwiderstand", "icon": "🩸" },
+      { "x": 2, "y": 3, "visible": false, "category": "Sensorik", "name": "Barorezeptoren", "icon": "👀" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Regulation", "name": "Neurohumorale Antwort", "icon": "🔄" },
+      { "x": 4, "y": 1, "visible": false, "category": "Reaktion", "name": "Vasokonstriktion", "icon": "🔒" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Blutdruckanstieg", "icon": "📈" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Feedback", "icon": "🔄" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Homöostase", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Metabolismus", "name": "CO₂-Produktion", "icon": "🔥" },
+      { "x": 1, "y": 2, "visible": false, "category": "Kreislauf", "name": "CO₂-Anstieg im Blut", "icon": "💧" },
+      { "x": 1, "y": 3, "visible": true,  "category": "pH-Regulation", "name": "Blut-pH Absenkung", "icon": "⚖️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Sensorik", "name": "Chemorezeptoren", "icon": "👁️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Atmung", "name": "Respiratorische Anpassung", "icon": "🌬️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Reaktion", "name": "Hyperventilation", "icon": "💨" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Ergebnis", "name": "pH-Anstieg", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nieren", "name": "Renale Pufferung", "icon": "🏥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Puffer", "name": "Bicarbonat-System", "icon": "🧪" },
+      { "x": 5, "y": 2, "visible": false, "category": "Sezernierung", "name": "Ausscheidung von H⁺", "icon": "🔄" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Homöostase", "name": "Wiederherstellung", "icon": "🔄" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Feedback", "icon": "🔄" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Stabiler pH", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Metabolit", "name": "NADH-Produktion", "icon": "🧬" },
+      { "x": 2, "y": 1, "visible": false, "category": "Enzym", "name": "Komplex I", "icon": "🔬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Metabolit", "name": "FADH₂-Produktion", "icon": "🧬" },
+      { "x": 4, "y": 1, "visible": false, "category": "Enzym", "name": "Komplex II", "icon": "🔬" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Prozess", "name": "Elektronentransport", "icon": "⚡" },
+      { "x": 5, "y": 2, "visible": false, "category": "Gradient", "name": "Protonengradient", "icon": "🌊" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Energie", "name": "ATP-Synthese", "icon": "⚡" },
+      { "x": 5, "y": 4, "visible": false, "category": "Ergebnis", "name": "Endprodukt: ATP", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 13, "visible": true,  "category": "Rezeptor", "name": "Rezeptoraktivierung", "icon": "🔑" },
+      { "x": 2, "y": 1,  "visible": false, "category": "GTPase", "name": "Ras-Aktivierung", "icon": "🧬" },
+      { "x": 3, "y": 1,  "visible": true,  "category": "Kinase", "name": "Raf-Aktivierung", "icon": "🔬" },
+      { "x": 4, "y": 1,  "visible": false, "category": "Kinase", "name": "MEK-Aktivierung", "icon": "🔬" },
+      { "x": 5, "y": 1,  "visible": true,  "category": "Kinase", "name": "ERK-Aktivierung", "icon": "🔬" },
+      { "x": 6, "y": 1,  "visible": false, "category": "Transport", "name": "Translokation ins Zytosol", "icon": "🚚" },
+      { "x": 7, "y": 1,  "visible": true,  "category": "Transport", "name": "Translokation in den Kern", "icon": "🚚" },
+      { "x": 8, "y": 1,  "visible": false, "category": "Genexpression", "name": "Transkription", "icon": "📝" },
+      { "x": 9, "y": 1,  "visible": true,  "category": "Translation", "name": "Proteinproduktion", "icon": "🧬" },
+      { "x": 5, "y": 2,  "visible": false, "category": "Wachstum", "name": "Zellproliferation", "icon": "🌱" },
+      { "x": 5, "y": 3,  "visible": true,  "category": "Entwicklung", "name": "Differenzierung", "icon": "🌿" },
+      { "x": 5, "y": 4,  "visible": false, "category": "Feedback", "name": "Feedback-Inhibition", "icon": "🔄" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Immunsystem", "name": "Antigenpräsentation", "icon": "🦠" },
+      { "x": 2, "y": 1, "visible": false, "category": "Zellaktivierung", "name": "T-Zell-Aktivierung", "icon": "⚡" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Signal", "name": "Zytokinfreisetzung", "icon": "💬" },
+      { "x": 4, "y": 1, "visible": false, "category": "Proliferation", "name": "Clonale Expansion", "icon": "🌱" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Funktion", "name": "Effektorzellfunktion", "icon": "🛡️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Feedback", "name": "Regulation", "icon": "🔄" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Stoffwechsel", "name": "Fettsäureaufnahme", "icon": "🥓" },
+      { "x": 1, "y": 2, "visible": false, "category": "Enzym", "name": "Aktivierung zu Acyl-CoA", "icon": "🔬" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Transport", "name": "Transport ins Mitochondrium", "icon": "🚚" },
+      { "x": 1, "y": 4, "visible": false, "category": "Enzym", "name": "Carnitinpalmitoyltransferase I", "icon": "🔬" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Prozess", "name": "β-Oxidation", "icon": "⚙️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Metabolit", "name": "Acetyl-CoA Bildung", "icon": "🧬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Zyklus", "name": "Citratzyklus", "icon": "🔄" },
+      { "x": 4, "y": 1, "visible": false, "category": "Energie", "name": "ATP-Produktion", "icon": "⚡" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Energiebereitstellung", "icon": "🏁" },
+      { "x": 6, "y": 1, "visible": false, "category": "Feedback", "name": "Homöostase", "icon": "✅" }
+    ]
+  }
+]

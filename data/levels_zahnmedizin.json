@@ -1,0 +1,298 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Panoramaröntgen", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Weisheitszahnentwicklung", "icon": "🦷" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Chirurgische Extraktion", "icon": "🔪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Lokalanästhetikum", "icon": "💉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Zahnlockerung", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Wundpflege", "icon": "🩹" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Schmerzreduktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Anatomie", "name": "Zahnkrone", "icon": "🦷" },
+      { "x": 2, "y": 1, "visible": false, "category": "Anatomie", "name": "Zahnwurzel", "icon": "🦷" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Anatomie", "name": "Zahnschmelz", "icon": "✨" },
+      { "x": 2, "y": 3, "visible": false, "category": "Anatomie", "name": "Dentin", "icon": "🦴" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Anatomie", "name": "Parodontium", "icon": "🦷" },
+      { "x": 4, "y": 1, "visible": false, "category": "Anatomie", "name": "Kieferknochen", "icon": "🦴" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Anatomie", "name": "Kiefergelenk", "icon": "🦴" },
+      { "x": 5, "y": 2, "visible": false, "category": "Anatomie", "name": "Zungenbein", "icon": "🦴" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Vollständige Zahn- und Kieferanatomie", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Embryologie", "name": "Zahnknospenbildung", "icon": "🌱" },
+      { "x": 1, "y": 2, "visible": false, "category": "Embryologie", "name": "Zahnblastem", "icon": "🧬" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Embryologie", "name": "Enamel Organ", "icon": "🦷" },
+      { "x": 1, "y": 4, "visible": false, "category": "Embryologie", "name": "Zahnschmelzbildung", "icon": "✨" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Embryologie", "name": "Dentinogenesis", "icon": "🦴" },
+      { "x": 2, "y": 1, "visible": false, "category": "Embryologie", "name": "Zahnpapille", "icon": "🔬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Embryologie", "name": "Kieferentwicklung", "icon": "🦴" },
+      { "x": 4, "y": 1, "visible": false, "category": "Embryologie", "name": "Wachstum des Kieferknochens", "icon": "📈" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Reife Zahnform", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Embryologische Kontrolle", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Entwicklung überwacht", "icon": "📋" },
+      { "x": 5, "y": 4, "visible": false, "category": "Dokumentation", "name": "Entwicklungsbericht", "icon": "📝" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Zahnreifung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Zahnschmerz", "icon": "😖" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Pulpitis", "icon": "⚠️" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Vitalitätsprüfung", "icon": "🩺" },
+      { "x": 2, "y": 3, "visible": false, "category": "Planung", "name": "Indikation zur Wurzelkanalbehandlung", "icon": "✅" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Zugangseröffnung", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Wurzelkanalaufbereitung", "icon": "🔧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Zwischenspülung", "icon": "💧" },
+      { "x": 5, "y": 2, "visible": false, "category": "OP Technik", "name": "Füllung der Wurzelkanäle", "icon": "🔨" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Erhalt des Zahns", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Zahnfleischbluten", "icon": "🩸" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Taschenmessung", "icon": "📏" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Parodontitis", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "Behandlungsplanung", "icon": "📋" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Scaling & Root Planing", "icon": "🪥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Lokale Desinfektion", "icon": "💧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Lasertherapie", "icon": "🔫" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Parodontale Nachsorge", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Parodontalkontrolle", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitbetreuung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Fehlender Zahn", "icon": "❌" },
+      { "x": 2, "y": 1, "visible": false, "category": "Planung", "name": "CBCT-Analyse", "icon": "📐" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Anatomie", "name": "Knochenqualität prüfen", "icon": "🦴" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Entscheidung", "name": "Implantat indiziert", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Implantatinsertion", "icon": "🔩" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Lokalanästhesie", "icon": "💉" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Intervention", "name": "Osteotomie", "icon": "🔧" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Wundkontrolle", "icon": "📋" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Implantat osseointegriert", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Monitoring", "name": "Implantat-Check", "icon": "📊" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitüberwachung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Fehlstellung der Zähne", "icon": "🔍" },
+      { "x": 2, "y": 1, "visible": false, "category": "Planung", "name": "Kieferanalyse", "icon": "📐" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Festsplintung", "icon": "🦷" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Chirurgisch assistierte Kieferorthopädie", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Kein Medikament", "icon": "❌" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Zahnspangenkontrolle", "icon": "📋" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Zahnstellung", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Zahnluxation", "icon": "💥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "Röntgenaufnahme", "icon": "🩻" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Wurzelfraktur", "icon": "⚠️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Reposition und Stabilisierung", "icon": "🔧" },
+      { "x": 5, "y": 2, "visible": false, "category": "Medikament", "name": "Lokalanästhesie", "icon": "💉" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Zahnfleischpflege", "icon": "🩹" },
+      { "x": 5, "y": 4, "visible": false, "category": "Ergebnis", "name": "Stabile Zahnlage", "icon": "✅" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitkontrolle", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Zahnschmerz", "icon": "😖" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Pulpitis", "icon": "⚠️" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Infizierter Wurzelkanal", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "Behandlungsplanung", "icon": "📋" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Zugangseröffnung", "icon": "🔧" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Wurzelkanalaufbereitung", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Zwischenspülung", "icon": "💧" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Füllung des Kanals", "icon": "🔨" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Erhalt des Zahns", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 4, "visible": false, "category": "Ergebnis", "name": "Schmerzreduktion", "icon": "✅" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Fehlender Zahn", "icon": "❌" },
+      { "x": 2, "y": 1, "visible": false, "category": "Planung", "name": "Digitale Abformung", "icon": "💻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Technik", "name": "CAD/CAM Design", "icon": "🖥️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Material", "name": "Keramik Prothese", "icon": "🦷" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Implantatinsertion", "icon": "🔩" },
+      { "x": 6, "y": 1, "visible": false, "category": "Anatomie", "name": "Kieferknochen", "icon": "🦴" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Intervention", "name": "Prothesenanpassung", "icon": "🔨" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📋" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Optimale Prothesenfunktion", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Monitoring", "name": "Prothesen-Check", "icon": "📊" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitüberwachung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Temporomandibuläre Dysfunktion", "icon": "🤕" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung TMJ", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "Röntgen TMJ", "icon": "🩻" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Muskelrelaxantien", "icon": "💊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Intervention", "name": "Intraartikuläre Injektion", "icon": "💉" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Gelenkfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schmerzhaftes Mundgeschwür", "icon": "🔥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Biopsie", "icon": "🔍" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Labortest", "name": "Histopathologie", "icon": "🧫" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Plattenepithelkarzinom", "icon": "🚩" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 5, "y": 2, "visible": false, "category": "OP Technik", "name": "Tumorresektion", "icon": "🔪" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Medikament", "name": "Adjuvante Radiotherapie", "icon": "💊" },
+      { "x": 5, "y": 4, "visible": false, "category": "Nachsorge", "name": "Wundkontrolle", "icon": "📋" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Tumorfrei", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Kongenitaler Zahnverlust", "icon": "❌" },
+      { "x": 2, "y": 1, "visible": false, "category": "Planung", "name": "Digitale Abformung", "icon": "💻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Technik", "name": "CAD/CAM Design", "icon": "🖥️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Material", "name": "Keramische Prothese", "icon": "🦷" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Implantatinsertion", "icon": "🔩" },
+      { "x": 6, "y": 1, "visible": false, "category": "Anatomie", "name": "Kieferknochen", "icon": "🦴" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Intervention", "name": "Prothesenanpassung", "icon": "🔨" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Optimale Prothesenpassung", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Monitoring", "name": "Langzeitüberwachung", "icon": "📆" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Digitaler OP-Abschluss", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Zahnfleischbluten", "icon": "🩸" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Taschenmessung", "icon": "📏" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Parodontitis", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "Behandlungsplanung", "icon": "📋" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Scaling & Root Planing", "icon": "🪥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Lokale Desinfektion", "icon": "💧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Lasertherapie", "icon": "🔫" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Parodontalkontrolle", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitbetreuung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Weisheitszahnentfernung", "icon": "🦷" },
+      { "x": 2, "y": 1, "visible": false, "category": "Planung", "name": "Radiographische Analyse", "icon": "📸" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Chirurgische Extraktion", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Anatomie", "name": "Kieferanatomie", "icon": "🦴" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Lokalanästhesie", "icon": "💉" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Wundversorgung", "icon": "🩹" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Schmerzreduktion", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 16,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Mundschleimhautverfärbung", "icon": "🎨" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Biopsie", "icon": "🔍" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Orales Lichen planus", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Konservative Behandlung", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Beratung", "name": "Lebensstilberatung", "icon": "🏃‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Regelmäßige Kontrollen", "icon": "📆" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Mundschleimhaut", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Abschluss", "name": "Langzeitbetreuung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 17,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Akute Wurzelentzündung", "icon": "🔥" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Periapikale Röntgenaufnahme", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Pulpitis", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "Endodontische Therapie indiziert", "icon": "✅" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Wurzelkanalbehandlung", "icon": "🔧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Lokalanästhesie", "icon": "💉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Wurzelkanalfüllung", "icon": "🔨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Schmerzreduktion & Erhalt des Zahns", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 18,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Neural Crest Entwicklung", "icon": "🧬" },
+      { "x": 2, "y": 1, "visible": false, "category": "Embryologie", "name": "Zahnknospenbildung", "icon": "🌱" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Embryologie", "name": "Zahnblastem Differenzierung", "icon": "🔬" },
+      { "x": 4, "y": 1, "visible": false, "category": "Pathway", "name": "Zahnentwicklung", "icon": "🦷" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Reife Zahnform", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Feedback", "name": "Entwicklungsüberwachung", "icon": "💬" }
+    ]
+  },
+  {
+    "id": 19,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Notfall", "name": "Akuter Zahntrauma", "icon": "🚑" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Röntgenaufnahme", "icon": "🩻" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Wurzelfraktur", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Reposition & Stabilisierung", "icon": "🔧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Lokalanästhesie", "icon": "💉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Wundpflege", "icon": "🩹" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Zahnposition", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Abschluss", "name": "Langzeitkontrolle", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 20,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pathway", "name": "Digital Dentistry", "icon": "📱" },
+      { "x": 2, "y": 1, "visible": false, "category": "Planung", "name": "CAD/CAM Design", "icon": "🖥️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Material", "name": "Biokompatible Keramik", "icon": "🦷" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Virtuelle OP-Planung", "icon": "🔧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Technik", "name": "3D-Druck", "icon": "🖨️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Nicht relevant", "icon": "❌" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Intervention", "name": "Prothesenfertigung", "icon": "🔨" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Anpassungskontrolle", "icon": "📋" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Optimale Prothesenpassung", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Digitale Beratung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Monitoring", "name": "Langzeitüberwachung", "icon": "📆" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Digitaler OP-Abschluss", "icon": "🏁" }
+    ]
+  }
+]

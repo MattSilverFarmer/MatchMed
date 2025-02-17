@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Röntgen des Femurs", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Fraktur",    "name": "Femurfraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Operation",  "name": "Osteosynthese mit Schrauben", "icon": "🔩" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Medikament", "name": "Schmerztherapie (NSAIDs)", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie",   "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Heilung",    "name": "Knochenheilung", "icon": "🦴" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge",  "name": "Nachuntersuchung", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis",   "name": "Erfolgreiche Rehabilitation", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss",  "name": "Behandlungsabschluss", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung des Knies", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Knie-MRT", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Verletzung", "name": "Meniskusriss", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "Operation",  "name": "Arthroskopische Meniskusreparatur", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie",   "name": "Postoperative Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie (Ibuprofen)", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Gelenkmobilisation", "icon": "🤸" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge",  "name": "Kontrolle durch Orthopäden", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis",   "name": "Stabile Kniegelenkfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung der Schulter", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Ultraschall der Schulter", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Pathologie", "name": "Rotatorenmanschettenruptur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Operation",  "name": "Arthroskopische Rotatorenmanschettenreparatur", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Medikament", "name": "Perioperative Analgesie (NSAR)", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie",   "name": "Schulterrehabilitation", "icon": "🏋️‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Erholung",   "name": "Funktionelle Wiederherstellung", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge",  "name": "Kontrolltermin", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Prognose",   "name": "Gute Langzeitergebnisse", "icon": "👍" },
+      { "x": 5, "y": 2, "visible": false, "category": "Rückkehr",   "name": "Rückkehr zum Sport", "icon": "⚽" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Vorsorge",   "name": "Präventive Übungen", "icon": "🤸" },
+      { "x": 5, "y": 4, "visible": false, "category": "Beratung",   "name": "Ernährungsberatung", "icon": "🥗" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss",  "name": "Behandlungsende", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Osteoarthritis des Knies", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen des Knies", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Planung",    "name": "Prothesenplanung", "icon": "📐" },
+      { "x": 4, "y": 1, "visible": false, "category": "Operation",  "name": "Knieendoprothesenimplantation", "icon": "🔩" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Antibiotische Prophylaxe (Cephalosporin)", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Therapie",   "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis",   "name": "Verbesserte Gelenkfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 4, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung der LWS", "icon": "🩺" },
+      { "x": 2, "y": 4, "visible": false, "category": "Bildgebung", "name": "MRT der Lendenwirbelsäule", "icon": "🩻" },
+      { "x": 3, "y": 4, "visible": true,  "category": "Pathologie", "name": "Bandscheibenprolaps", "icon": "💥" },
+      { "x": 4, "y": 4, "visible": false, "category": "Medikament", "name": "Injektionstherapie (Kortison)", "icon": "💉" },
+      { "x": 5, "y": 4, "visible": true,  "category": "Therapie",   "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 6, "y": 4, "visible": false, "category": "Operation",  "name": "Mikrodiskektomie", "icon": "🔧" },
+      { "x": 7, "y": 4, "visible": true,  "category": "Medikament", "name": "Postoperative Schmerztherapie (NSAR)", "icon": "💊" },
+      { "x": 8, "y": 4, "visible": false, "category": "Rehabilitation", "name": "Mobilisation", "icon": "🏃‍♂️" },
+      { "x": 9, "y": 4, "visible": true,  "category": "Nachsorge", "name": "Kontroll-MRT", "icon": "🩻" },
+      { "x": 5, "y": 5, "visible": false, "category": "Ergebnis",   "name": "Symptomverbesserung", "icon": "✅" },
+      { "x": 5, "y": 6, "visible": true,  "category": "Beratung",   "name": "Rückenschule", "icon": "📚" },
+      { "x": 5, "y": 7, "visible": false, "category": "Vorsorge",   "name": "Sturzprophylaxe", "icon": "🚶" },
+      { "x": 5, "y": 8, "visible": true,  "category": "Aufklärung", "name": "Patientenschulung", "icon": "🗣️" },
+      { "x": 5, "y": 3, "visible": false, "category": "Planung",    "name": "Nachbehandlung", "icon": "📅" },
+      { "x": 5, "y": 2, "visible": true,  "category": "Abschluss",  "name": "Behandlungsabschluss", "icon": "🏁" },
+      { "x": 5, "y": 1, "visible": false, "category": "Feedback",   "name": "Nachsorgefeedback", "icon": "💬" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung des Handgelenks", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen des Handgelenks", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Fraktur",    "name": "Distale Radiusfraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Operation",  "name": "OP: Plattenosteosynthese", "icon": "🔩" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Postoperative Schmerztherapie (Opioide)", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Therapie",   "name": "Rehabilitative Therapie", "icon": "🏋️‍♂️" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",       "name": "Klinische Untersuchung der Schulter", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung",     "name": "Röntgen der Schulter", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Pathologie",     "name": "Akute Schulterluxation", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Reduktion",      "name": "Geschlossene Reposition", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Immobilisation", "name": "Schulterorthese", "icon": "🩹" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie",       "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Rehabilitationsphase", "name": "Muskelaufbau", "icon": "💪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge",      "name": "Kontrolltermin", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis",       "name": "Stabile Schulterfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss",      "name": "Behandlungsabschluss", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung des Knies", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen des Knies", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Pathologie", "name": "Fortgeschrittene Kniearthrose", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "Planung",    "name": "Knieendoprothesenplanung", "icon": "📐" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Operation",  "name": "Knieendoprothesenimplantation", "icon": "🔩" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Antibiotische Prophylaxe (Cephalosporin)", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie",   "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis",   "name": "Verbesserte Gelenkfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung der Achillessehne", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Ultraschall der Achillessehne", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Pathologie", "name": "Achillessehnenruptur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Operation",  "name": "Offene Naht der Achillessehne", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Immobilisation", "name": "Gipsverbund", "icon": "🩹" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie",   "name": "Rehabilitative Übungen", "icon": "🏋️‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🤸" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie (NSAR)", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": false, "category": "Ergebnis",   "name": "Wiederherstellung der Funktion", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Vorsorge",   "name": "Präventive Dehnung", "icon": "🤸‍♂️" },
+      { "x": 5, "y": 4, "visible": false, "category": "Beratung",   "name": "Patientenschulung", "icon": "🗣️" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss",  "name": "Behandlungsende", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung der Wirbelsäule", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen der Wirbelsäule", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Pathologie", "name": "Kompressionsfraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie",   "name": "Konservative Behandlung", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Osteoporosemedikation (Bisphosphonate)", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis",   "name": "Stabile Wirbelsäulenstruktur", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 4, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung der Hüfte", "icon": "🩺" },
+      { "x": 2, "y": 4, "visible": false, "category": "Bildgebung", "name": "Röntgen der Hüfte", "icon": "🩻" },
+      { "x": 3, "y": 4, "visible": true,  "category": "Pathologie", "name": "Hüftarthrose", "icon": "💥" },
+      { "x": 4, "y": 4, "visible": false, "category": "Planung",    "name": "Hüftendoprothesenplanung", "icon": "📐" },
+      { "x": 5, "y": 4, "visible": true,  "category": "Operation",  "name": "Hüftendoprothesenimplantation", "icon": "🔩" },
+      { "x": 6, "y": 4, "visible": false, "category": "Medikament", "name": "Antibiotische Prophylaxe (Cephalosporin)", "icon": "💊" },
+      { "x": 7, "y": 4, "visible": true,  "category": "Therapie",   "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 8, "y": 4, "visible": false, "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 9, "y": 4, "visible": true,  "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 5, "visible": false, "category": "Ergebnis",   "name": "Schmerzreduktion", "icon": "✅" },
+      { "x": 5, "y": 6, "visible": true,  "category": "Vorsorge",   "name": "Präventive Bewegung", "icon": "🤸" },
+      { "x": 5, "y": 7, "visible": false, "category": "Abschluss",  "name": "Behandlungsende", "icon": "🏁" },
+      { "x": 5, "y": 8, "visible": true,  "category": "Feedback",   "name": "Patientenzufriedenheit", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": false, "category": "Dokumentation", "name": "Verlaufsbericht", "icon": "📝" },
+      { "x": 5, "y": 2, "visible": true,  "category": "Review",     "name": "Postoperative Kontrolle", "icon": "🔍" },
+      { "x": 5, "y": 1, "visible": false, "category": "Abschluss",  "name": "Therapieende", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung der Wirbelsäule", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen der Wirbelsäule", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Pathologie", "name": "Skoliose", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie",   "name": "Korsettversorgung", "icon": "🎗️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrolluntersuchungen", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung der Hand", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Ultraschall des Karpaltunnels", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Pathologie", "name": "Karpaltunnelsyndrom", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Therapie",   "name": "Konservative Behandlung", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Kortisoninjektion", "icon": "💉" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie",   "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Ergebnis",   "name": "Symptomreduktion", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge",  "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Beratung",   "name": "Ergonomische Anpassung", "icon": "🖥️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss",  "name": "Behandlungsende", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung der Hand", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen der Hand", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Fraktur",    "name": "Metakarpalfraktur", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "Reduktion",  "name": "Geschlossene Reposition", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Operation",  "name": "OP: K-Draht-Fixation", "icon": "🔩" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Postoperative Schmerztherapie (NSAR)", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie",   "name": "Physiotherapie", "icon": "🏋️‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge",  "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis",   "name": "Gute Handfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose",   "name": "Klinische Untersuchung des Knies", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Knie-MRT", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Pathologie", "name": "ACL-Riss", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Operation",  "name": "Rekonstruktion des ACL", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Medikament", "name": "Postoperative Schmerztherapie (NSAR)", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie",   "name": "Frührehabilitation", "icon": "🏋️‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Stabilisierung", "name": "Knieorthese", "icon": "🩹" },
+      { "x": 4, "y": 1, "visible": false, "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Kontroll-MRT", "icon": "🩻" },
+      { "x": 5, "y": 2, "visible": false, "category": "Ergebnis",   "name": "Verbesserte Stabilität", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Beratung",   "name": "Sportmedizinische Beratung", "icon": "📋" },
+      { "x": 5, "y": 4, "visible": false, "category": "Vorsorge",   "name": "Präventives Training", "icon": "🤸" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss",  "name": "Behandlungsende", "icon": "🏁" }
+    ]
+  }
+]

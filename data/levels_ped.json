@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Atemnot bei Belastung", "icon": "🌬️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Verminderter Peak-Flow", "icon": "📉" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Spirographie", "icon": "🖼️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Therapie", "name": "Inhalative Bronchodilatation", "icon": "💨" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Medikament", "name": "Beta-2-Agonisten", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Monitoring", "name": "Pulsoximetrie", "icon": "📊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Management", "name": "Asthma-Action-Plan", "icon": "📋" },
+      { "x": 4, "y": 1, "visible": false, "category": "Beratung", "name": "Elternaufklärung", "icon": "💬" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Atmung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Ohrenschmerzen & Fieber", "icon": "🤕" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Bildgebung", "name": "Tympanometrie", "icon": "📈" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Akute Otitis media", "icon": "🔥" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Antibiotikamanagement", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Tympanostomie", "icon": "🔧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Analgetika", "icon": "💊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrolle der Ohrfunktion", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Symptomverbesserung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schmerz & Rötung der Haut", "icon": "🔥" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Verbrennungsgrad bestimmen", "icon": "⚠️" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Thermografie", "icon": "🖼️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "OP-Planung bei großflächigen Verbrennungen", "icon": "📐" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Wunddebridement", "icon": "🔪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Anatomie", "name": "Hautschichten", "icon": "🦠" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Exzision & Hauttransplantation", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Wundpflege", "icon": "🩹" },
+      { "x": 5, "y": 2, "visible": false, "category": "Monitoring", "name": "Infektionskontrolle", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Wundheilung", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Durchfall & Erbrechen", "icon": "💩" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Elektrolytstatus", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Dehydration", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Rehydratation", "icon": "💧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Beratung", "name": "Ernährungsberatung", "icon": "🥗" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Management", "name": "Supportive Therapie", "icon": "🤝" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Kreislaufsituation", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Fieber im Neugeborenen", "icon": "🌡️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labortest", "name": "Blutkultur", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Neonatale Sepsis", "icon": "🚨" },
+      { "x": 1, "y": 4, "visible": false, "category": "Intervention", "name": "Sofortige Antibiotikatherapie", "icon": "💉" },
+      { "x": 2, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter überwachen", "icon": "📊" },
+      { "x": 3, "y": 1, "visible": false, "category": "Team", "name": "Neonatales Notfallteam", "icon": "👥" },
+      { "x": 4, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Situation", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": false, "category": "Nachsorge", "name": "Kontrolle auf der Neugeboreneneinheit", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": true,  "category": "Abschluss", "name": "Fortgesetzte Überwachung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schmerz im Unterarm", "icon": "😣" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Röntgen des Unterarms", "icon": "🩻" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Fraktur des Radius", "icon": "💥" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "Anatomie", "name": "Radiusstruktur", "icon": "🦴" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Volar Plattenosteosynthese", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Postoperative Schmerztherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Nachsorge", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Kongenitaler Herzfehler", "icon": "❤️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Echokardiographie", "icon": "📈" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Ventrikelseptumdefekt", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Team", "name": "Interdisziplinäre Besprechung", "icon": "👥" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Chirurgische Korrektur", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Intraoperative Medikation", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Invasive Überwachung", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Herzfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Postoperative Betreuung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Epileptischer Anfall", "icon": "⚡" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "EEG Untersuchung", "icon": "📈" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Elektrolytstatus", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Kindliche Epilepsie", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Antikonvulsiva", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Beratung", "name": "Familienberatung", "icon": "💬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Management", "name": "Langzeittherapie", "icon": "📋" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Regelmäßiges EEG", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Reduzierte Anfallshäufigkeit", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Appetitlosigkeit & Erbrechen", "icon": "💩" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Elektrolytstatus", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Dehydration", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Rehydratation", "icon": "💧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Beratung", "name": "Ernährungsberatung", "icon": "🥣" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Management", "name": "Supportive Therapie", "icon": "🤝" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Kreislaufsituation", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Neonatale Gelbsucht", "icon": "👶" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labortest", "name": "Bilirubinmessung", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Hyperbilirubinämie", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Überwachung", "name": "Kontrolle der Bilirubinwerte", "icon": "📊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Phototherapie", "icon": "🌈" },
+      { "x": 2, "y": 1, "visible": false, "category": "Management", "name": "Ernährungsberatung", "icon": "🥣" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Regelmäßige Kontrolluntersuchung", "icon": "📋" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ergebnis", "name": "Normalisierung der Werte", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" },
+      { "x": 6, "y": 1, "visible": false, "category": "Dokumentation", "name": "Aufwachprotokoll", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Husten & Fieber", "icon": "🌡️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Bildgebung", "name": "Röntgen Thorax", "icon": "🩻" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Pneumonie", "icon": "⚠️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Antibiotikatherapie", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Pulsoximetrie", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Management", "name": "Supportive Therapie", "icon": "🤝" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrolle der Atemfunktion", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Lungenfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Atemnot und Husten", "icon": "😮‍💨" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Bronchialauskultation", "icon": "👂" },
+      { "x": 1, "y": 4, "visible": false, "category": "Labortest", "name": "RSV-Test", "icon": "🧪" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Diagnose", "name": "Bronchiolitis", "icon": "⚠️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Supportive Maßnahmen", "icon": "🏥" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Inhalative Bronchodilatatoren", "icon": "💨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Pulsoximetrie", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Atmung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Fieber und Nackensteifigkeit", "icon": "🌡️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Lumbalpunktion", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "CSF-Analyse", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Bakterielle Meningitis", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Intravenöse Antibiotika", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Monitoring", "name": "Neurologische Überwachung", "icon": "📊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verbesserte neurologische Funktion", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Wiederholte Anfälle", "icon": "⚡" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "EEG Untersuchung", "icon": "📈" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Elektrolytstatus", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Epileptiforme Aktivität", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Antikonvulsiva", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Beratung", "name": "Familienberatung", "icon": "💬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Management", "name": "Langzeittherapie", "icon": "📋" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Regelmäßiges EEG", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Reduzierte Anfallshäufigkeit", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Nachsorge", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Durchfall und Erbrechen", "icon": "💩" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Elektrolytstatus", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Dehydration", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Rehydratation", "icon": "💧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Beratung", "name": "Ernährungsberatung", "icon": "🥗" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Management", "name": "Supportive Therapie", "icon": "🤝" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Kreislaufsituation", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 16,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Notfall", "name": "Schwieriger Atemweg", "icon": "🚨" },
+      { "x": 2, "y": 1, "visible": false, "category": "Technik", "name": "Videolaryngoskopie", "icon": "📹" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Muskelrelaxans", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Fiberoptische Intubation", "icon": "🔦" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Atemwegsüberwachung", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Sicher intubiert", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 17,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Regionalanästhesie", "name": "Ultraschallgesteuerte Nervenblockade", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Technik", "name": "Nervenlokalisierung", "icon": "🔍" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Medikament", "name": "Lidocain", "icon": "💊" },
+      { "x": 1, "y": 4, "visible": false, "category": "Überwachung", "name": "Blockdauer prüfen", "icon": "⌛" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Erfolgreiche Blockade", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "Dokumentation", "name": "Blockprotokoll", "icon": "📝" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Feedback", "name": "Patientenzufriedenheit", "icon": "👍" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Nachkontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Abschluss", "name": "OP-Freigabe", "icon": "🏁" },
+      { "x": 6, "y": 1, "visible": false, "category": "Team", "name": "Interdisziplinäres Briefing", "icon": "👥" }
+    ]
+  },
+  {
+    "id": 18,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Sedierung", "name": "Aufwachsedierung", "icon": "😌" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Dexmedetomidin", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter messen", "icon": "📊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Technik", "name": "Lokaler Nervenblock", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Sedierung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 19,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Kardiologische Bewertung", "name": "Echokardiographie", "icon": "📈" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labortest", "name": "Blutgasanalyse", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Planung", "name": "Spezielle Narkosestrategie", "icon": "📋" },
+      { "x": 1, "y": 4, "visible": false, "category": "Induktion", "name": "Etomidat Induktion", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Monitoring", "name": "Invasive Blutdruckmessung", "icon": "📊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Team", "name": "Interdisziplinäres Briefing", "icon": "👥" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Postoperative Überwachung", "icon": "🏥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Herzfunktion", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Dokumentation", "name": "Narkoseprotokoll", "icon": "📝" },
+      { "x": 5, "y": 2, "visible": false, "category": "Abschluss", "name": "OP-Abschluss", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 20,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Trauma", "name": "Polytrauma in der Pädiatrie", "icon": "🚑" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "FAST Ultraschall", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Induktion", "name": "Rapid Sequence Intubation", "icon": "🔪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Medikament", "name": "Propofol & Fentanyl", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Monitoring", "name": "Invasive Überwachung", "icon": "📈" },
+      { "x": 2, "y": 1, "visible": false, "category": "Intervention", "name": "Schnelle Absicherung der Atemwege", "icon": "🔒" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Vitalparameter", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "Abschluss", "name": "Übergabe & Dokumentation", "icon": "🏁" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Feedback", "name": "Teamdebriefing", "icon": "💬" }
+    ]
+  }
+]

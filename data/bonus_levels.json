@@ -1,0 +1,295 @@
+[
+    {
+      "id": 1,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Cardiac History", "name": "Anamnese & Symptomatik", "icon": "🩺" },
+        { "x": 1, "y": 2, "visible": false, "category": "EKG Analysis", "name": "ST-Hebung erkennen", "icon": "📈" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Biomarker", "name": "Troponin-Erhöhung", "icon": "🧪" },
+        { "x": 1, "y": 4, "visible": false, "category": "Imaging", "name": "Koronarangiographie", "icon": "🖼️" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "PCI durchführen", "icon": "🔧" },
+        { "x": 2, "y": 1, "visible": false, "category": "Pharmacotherapy", "name": "Antiplatelet-Verabreichung", "icon": "💊" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter überwachen", "icon": "📊" },
+        { "x": 4, "y": 1, "visible": false, "category": "Rehabilitation", "name": "Kardioreha-Plan", "icon": "🏃‍♂️" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Outcome", "name": "Stabile Herzfunktion", "icon": "✅" },
+        { "x": 6, "y": 1, "visible": false, "category": "Discharge", "name": "Follow-up vereinbaren", "icon": "🏁" }
+      ]
+    },
+    {
+      "id": 2,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Symptom Onset", "name": "Heftige Bauchschmerzen", "icon": "😣" },
+        { "x": 2, "y": 1, "visible": false, "category": "Lab Diagnostics", "name": "Erhöhte Amylase", "icon": "🧪" },
+        { "x": 2, "y": 2, "visible": true,  "category": "Imaging Study", "name": "CT Abdomen", "icon": "🖼️" },
+        { "x": 2, "y": 3, "visible": false, "category": "Diagnosis", "name": "Akute Pankreatitis", "icon": "🔥" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Initial Management", "name": "Flüssigkeitstherapie", "icon": "💧" },
+        { "x": 4, "y": 1, "visible": false, "category": "Pain Management", "name": "Analgetika", "icon": "💊" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+        { "x": 5, "y": 2, "visible": false, "category": "Aftercare", "name": "ICU Betreuung", "icon": "🏥" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Outcome", "name": "Stabile Genesung", "icon": "✅" }
+      ]
+    },
+    {
+      "id": 3,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Neuro Exam", "name": "Umfassende neurologische Untersuchung", "icon": "🩺" },
+        { "x": 1, "y": 2, "visible": false, "category": "Imaging", "name": "CT des Gehirns", "icon": "🖼️" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Lab Analysis", "name": "Koagulationsprofil", "icon": "🩸" },
+        { "x": 1, "y": 4, "visible": false, "category": "Diagnosis", "name": "Ischämischer Schlaganfall", "icon": "⚠️" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Treatment Decision", "name": "Thrombolyse indizieren", "icon": "✅" },
+        { "x": 2, "y": 1, "visible": false, "category": "Medication", "name": "tPA Verabreichung", "icon": "💊" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Interventional", "name": "Endovaskuläre Thrombektomie", "icon": "🔧" },
+        { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Neurologisches Monitoring", "icon": "📊" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Aftercare", "name": "Stroke Unit Betreuung", "icon": "🏥" },
+        { "x": 5, "y": 2, "visible": false, "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Outcome", "name": "Funktionelle Erholung", "icon": "✅" },
+        { "x": 5, "y": 4, "visible": false, "category": "Follow-Up", "name": "Neurologische Nachkontrolle", "icon": "📆" },
+        { "x": 5, "y": 5, "visible": true,  "category": "Long-Term", "name": "Rehabilitationsmanagement", "icon": "🏁" }
+      ]
+    },
+    {
+      "id": 4,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Respiratory", "name": "Akute Atemnot", "icon": "🌬️" },
+        { "x": 2, "y": 1, "visible": false, "category": "Assessment", "name": "Peak Flow Messung", "icon": "📉" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Diagnosis", "name": "Asthma Exazerbation", "icon": "⚠️" },
+        { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Inhalative Bronchodilatation", "icon": "💨" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Pharmacotherapy", "name": "Corticosteroid-Tropfen", "icon": "💊" },
+        { "x": 6, "y": 1, "visible": false, "category": "Monitoring", "name": "Oxygen Sättigung", "icon": "📊" },
+        { "x": 7, "y": 1, "visible": true,  "category": "Outcome", "name": "Symptomreduktion", "icon": "✅" },
+        { "x": 8, "y": 1, "visible": false, "category": "Discharge", "name": "Impf- und Follow-Up-Plan", "icon": "🏁" }
+      ]
+    },
+    {
+      "id": 5,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Injury Assessment", "name": "Starke Beinschmerzen", "icon": "😣" },
+        { "x": 2, "y": 1, "visible": false, "category": "Imaging", "name": "X-ray des Femurs", "icon": "🩻" },
+        { "x": 2, "y": 2, "visible": true,  "category": "Diagnosis", "name": "Diaphyseale Femurfraktur", "icon": "💥" },
+        { "x": 2, "y": 3, "visible": false, "category": "Surgical Decision", "name": "OP-Indikation", "icon": "✅" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Closed Reduction", "icon": "🔧" },
+        { "x": 4, "y": 1, "visible": false, "category": "Surgical Technique", "name": "Intramedullary Nailing", "icon": "🔩" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Postoperative", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+        { "x": 5, "y": 2, "visible": false, "category": "Outcome", "name": "Stabile Frakturheilung", "icon": "✅" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Discharge", "name": "Ambulante Nachsorge", "icon": "🏁" }
+      ]
+    },
+    {
+      "id": 6,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Surgical Prep", "name": "Untersuchung der Abdomen", "icon": "🩺" },
+        { "x": 1, "y": 2, "visible": false, "category": "Imaging", "name": "CT Abdomen", "icon": "🖼️" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Diagnosis", "name": "Akute Appendizitis", "icon": "🔥" },
+        { "x": 1, "y": 4, "visible": false, "category": "Surgical Indication", "name": "OP Indikation", "icon": "✅" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Operative Technique", "name": "Laparoskopische Appendektomie", "icon": "🔪" },
+        { "x": 2, "y": 1, "visible": false, "category": "Intraoperative", "name": "Antibiotikaprophylaxe", "icon": "💊" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Postoperative", "name": "Erholungsüberwachung", "icon": "🏥" },
+        { "x": 4, "y": 1, "visible": false, "category": "Outcome", "name": "Stabile Genesung", "icon": "✅" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Discharge", "name": "Follow-Up Termin", "icon": "🏁" }
+      ]
+    },
+    {
+      "id": 7,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Dermatological", "name": "Verbrennungen an der Haut", "icon": "🔥" },
+        { "x": 2, "y": 1, "visible": false, "category": "Assessment", "name": "Bestimmung des Verbrennungsgrads", "icon": "⚠️" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Calculation", "name": "TBSA-Ermittlung", "icon": "📏" },
+        { "x": 4, "y": 1, "visible": false, "category": "Fluid Management", "name": "Flüssigkeitsresuscitation", "icon": "💧" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Surgical", "name": "Debridement & Hauttransplantation", "icon": "🔪" },
+        { "x": 6, "y": 1, "visible": false, "category": "Aftercare", "name": "Wundpflege", "icon": "🩹" },
+        { "x": 7, "y": 1, "visible": true,  "category": "Outcome", "name": "Graft Take", "icon": "✅" },
+        { "x": 8, "y": 1, "visible": false, "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏃‍♀️" }
+      ]
+    },
+    {
+      "id": 8,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Pediatrics", "name": "Kindliche Atemnot", "icon": "👶" },
+        { "x": 2, "y": 1, "visible": false, "category": "Assessment", "name": "Auskultation", "icon": "👂" },
+        { "x": 2, "y": 2, "visible": true,  "category": "Diagnostic", "name": "SpO2-Messung", "icon": "📊" },
+        { "x": 2, "y": 3, "visible": false, "category": "Diagnosis", "name": "Akute Bronchiolitis", "icon": "⚠️" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Management", "name": "Supportive Therapie", "icon": "🏥" },
+        { "x": 4, "y": 1, "visible": false, "category": "Communication", "name": "Elternaufklärung", "icon": "💬" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Outcome", "name": "Stabile Atmung", "icon": "✅" }
+      ]
+    },
+    {
+      "id": 9,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Obstetrics", "name": "Vaginale Blutung", "icon": "🩸" },
+        { "x": 1, "y": 2, "visible": false, "category": "Assessment", "name": "Uteruskontraktionen", "icon": "🤰" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Imaging", "name": "Transvaginaler Ultraschall", "icon": "🖼️" },
+        { "x": 1, "y": 4, "visible": false, "category": "Diagnosis", "name": "Placental Abruption", "icon": "🚩" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Notfall-Kaiserschnitt", "icon": "🔪" },
+        { "x": 2, "y": 1, "visible": false, "category": "Preop", "name": "Maternal Stabilization", "icon": "💧" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Fetal Herzfrequenz", "icon": "📊" },
+        { "x": 4, "y": 1, "visible": false, "category": "Aftercare", "name": "Postop Betreuung", "icon": "🏥" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Outcome", "name": "Stabile Mutter & Kind", "icon": "✅" }
+      ]
+    },
+    {
+      "id": 10,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Urology", "name": "Flankenschmerzen", "icon": "😖" },
+        { "x": 2, "y": 1, "visible": false, "category": "Assessment", "name": "Urinanalyse", "icon": "🧪" },
+        { "x": 2, "y": 2, "visible": true,  "category": "Imaging", "name": "Ultraschall Nieren", "icon": "🖼️" },
+        { "x": 2, "y": 3, "visible": false, "category": "Diagnosis", "name": "Nierenstein", "icon": "💥" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Therapy", "name": "Konservative Behandlung", "icon": "🏥" },
+        { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "ESWL", "icon": "🔧" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Schmerzkontrolle", "icon": "📊" },
+        { "x": 5, "y": 2, "visible": false, "category": "Aftercare", "name": "Ambulante Nachsorge", "icon": "🏥" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Outcome", "name": "Steinpassage", "icon": "✅" }
+      ]
+    },
+    {
+      "id": 11,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Nephrology", "name": "Oligurie", "icon": "💧" },
+        { "x": 1, "y": 2, "visible": false, "category": "Lab", "name": "Erhöhter Kreatininspiegel", "icon": "🧪" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Diagnosis", "name": "Akutes Nierenversagen", "icon": "⚠️" },
+        { "x": 1, "y": 4, "visible": false, "category": "Therapy", "name": "Flüssigkeitsmanagement", "icon": "💧" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Notfalldialyse", "icon": "💉" },
+        { "x": 2, "y": 1, "visible": false, "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Team", "name": "Interdisziplinäre Abstimmung", "icon": "👥" },
+        { "x": 4, "y": 1, "visible": false, "category": "Outcome", "name": "Stabile Nierenfunktion", "icon": "✅" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Aftercare", "name": "Regelmäßige Kontrolle", "icon": "📋" },
+        { "x": 6, "y": 1, "visible": false, "category": "Discharge", "name": "Langzeitmanagement", "icon": "🏁" }
+      ]
+    },
+    {
+      "id": 12,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Endocrinology", "name": "Polyurie & Polydipsie", "icon": "💦" },
+        { "x": 2, "y": 1, "visible": false, "category": "Lab Analysis", "name": "Hyperglykämie", "icon": "📊" },
+        { "x": 2, "y": 2, "visible": true,  "category": "Lab Analysis", "name": "Ketonmessung", "icon": "🧪" },
+        { "x": 2, "y": 3, "visible": false, "category": "Diagnosis", "name": "Diabetische Ketoazidose", "icon": "⚠️" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Management", "name": "Flüssigkeitsresuscitation", "icon": "💧" },
+        { "x": 4, "y": 1, "visible": false, "category": "Therapy", "name": "Insulintherapie", "icon": "💉" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📈" },
+        { "x": 5, "y": 2, "visible": false, "category": "Aftercare", "name": "Stabilisierung", "icon": "✅" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Outcome", "name": "DKA resolved", "icon": "✅" }
+      ]
+    },
+    {
+      "id": 13,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Infectious Diseases", "name": "Fieber & Schüttelfrost", "icon": "🌡️" },
+        { "x": 1, "y": 2, "visible": false, "category": "Lab", "name": "Erhöhte Leukozyten", "icon": "🧪" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Microbiology", "name": "Erregeridentifikation", "icon": "🔍" },
+        { "x": 1, "y": 4, "visible": false, "category": "Diagnosis", "name": "Sepsis", "icon": "🚨" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Schnelle Antibiotikagabe", "icon": "💉" },
+        { "x": 2, "y": 1, "visible": false, "category": "Therapy", "name": "Volumentherapie", "icon": "💧" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+        { "x": 4, "y": 1, "visible": false, "category": "Team Coordination", "name": "Notfallteam Briefing", "icon": "👥" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Outcome", "name": "Überleben sichern", "icon": "🏆" },
+        { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Therapieanpassung", "icon": "🔄" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Long-Term", "name": "Langzeitmanagement", "icon": "🏁" },
+        { "x": 5, "y": 4, "visible": false, "category": "Documentation", "name": "Verlaufsbericht", "icon": "📝" },
+        { "x": 5, "y": 5, "visible": true,  "category": "Follow-Up", "name": "Regelmäßige Kontrolle", "icon": "📆" }
+      ]
+    },
+    {
+      "id": 14,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Oncology", "name": "Husten & Gewichtsverlust", "icon": "😰" },
+        { "x": 2, "y": 1, "visible": false, "category": "Imaging", "name": "CT Thorax", "icon": "🖼️" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Diagnosis", "name": "Lungenkarzinom", "icon": "🚩" },
+        { "x": 4, "y": 1, "visible": false, "category": "Multidisciplinary", "name": "Tumorboard", "icon": "👥" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Surgical", "name": "Lobektomie", "icon": "🔪" },
+        { "x": 6, "y": 1, "visible": false, "category": "Adjunct Therapy", "name": "Adjuvante Chemo", "icon": "💊" },
+        { "x": 7, "y": 1, "visible": true,  "category": "Aftercare", "name": "Follow-Up Imaging", "icon": "📋" },
+        { "x": 8, "y": 1, "visible": false, "category": "Outcome", "name": "Tumorfrei", "icon": "✅" }
+      ]
+    },
+    {
+      "id": 15,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Rheumatology", "name": "Gelenkschmerzen", "icon": "😖" },
+        { "x": 1, "y": 2, "visible": false, "category": "Lab", "name": "Erhöhte CRP & BSG", "icon": "🧪" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Diagnosis", "name": "Rheumatoide Arthritis", "icon": "🔥" },
+        { "x": 1, "y": 4, "visible": false, "category": "Treatment Planning", "name": "Therapieoptionen", "icon": "📋" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Medication Strategy", "name": "DMARDs einsetzen", "icon": "💊" },
+        { "x": 2, "y": 1, "visible": false, "category": "Rehabilitation", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "CRP-Kontrolle", "icon": "📊" },
+        { "x": 4, "y": 1, "visible": false, "category": "Patient Education", "name": "Therapieaufklärung", "icon": "💬" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Outcome", "name": "Verbesserte Gelenkfunktion", "icon": "✅" },
+        { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Therapieanpassung", "icon": "🔄" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Aftercare", "name": "Langzeitkontrolle", "icon": "📆" },
+        { "x": 5, "y": 4, "visible": false, "category": "Closure", "name": "Rehabilitationsplan", "icon": "🏁" },
+        { "x": 5, "y": 5, "visible": true,  "category": "Documentation", "name": "Therapieprotokoll", "icon": "📝" }
+      ]
+    },
+    {
+      "id": 16,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Anesthesiology", "name": "Schwieriger Atemweg", "icon": "🚨" },
+        { "x": 2, "y": 1, "visible": false, "category": "Airway Technique", "name": "Videolaryngoskopie", "icon": "📹" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Pharmacology", "name": "Muskelrelaxans einsetzen", "icon": "💊" },
+        { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Fiberoptische Intubation", "icon": "🔦" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Atemwegsüberwachung", "icon": "📊" },
+        { "x": 6, "y": 1, "visible": false, "category": "Outcome", "name": "Sicher intubiert", "icon": "✅" }
+      ]
+    },
+    {
+      "id": 17,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Radiology", "name": "Trauma-CT", "icon": "🖼️" },
+        { "x": 2, "y": 1, "visible": false, "category": "Image Analysis", "name": "Frakturen identifizieren", "icon": "🔍" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Imaging", "name": "Schädel-CT", "icon": "🧠" },
+        { "x": 4, "y": 1, "visible": false, "category": "Imaging", "name": "Abdominal-CT", "icon": "🩻" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Diagnostic", "name": "Verletzungsausmaß bestimmen", "icon": "⚠️" },
+        { "x": 6, "y": 1, "visible": false, "category": "Surgical Planning", "name": "OP-Planung", "icon": "🔧" },
+        { "x": 7, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter", "icon": "📊" },
+        { "x": 8, "y": 1, "visible": false, "category": "Team Briefing", "name": "Radiologisches Briefing", "icon": "👥" },
+        { "x": 9, "y": 1, "visible": true,  "category": "Outcome", "name": "Exakte Diagnose", "icon": "✅" },
+        { "x": 5, "y": 2, "visible": false, "category": "Documentation", "name": "Befundbericht", "icon": "📝" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Closure", "name": "Abschlussbericht", "icon": "🏁" },
+        { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Interdisziplinäres Debriefing", "icon": "💬" }
+      ]
+    },
+    {
+      "id": 18,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Dental Surgery", "name": "Akuter Zahnschmerz", "icon": "😖" },
+        { "x": 1, "y": 2, "visible": false, "category": "Diagnostic", "name": "Intraorales Röntgen", "icon": "🩻" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Diagnosis", "name": "Pulpitis", "icon": "⚠️" },
+        { "x": 1, "y": 4, "visible": false, "category": "Treatment Planning", "name": "Indikation zur Wurzelkanalbehandlung", "icon": "✅" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Surgical", "name": "Zugangseröffnung", "icon": "🔧" },
+        { "x": 2, "y": 1, "visible": false, "category": "Operative Technik", "name": "Wurzelkanalaufbereitung", "icon": "🔨" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Intermediate", "name": "Zwischenspülung", "icon": "💧" },
+        { "x": 4, "y": 1, "visible": false, "category": "Definitive Filling", "name": "Wurzelkanalfüllung", "icon": "🛠️" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Outcome", "name": "Erhalt des Zahns", "icon": "✅" }
+      ]
+    },
+    {
+      "id": 19,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Preventive Medicine", "name": "Impfkampagne Planung", "icon": "📊" },
+        { "x": 2, "y": 1, "visible": false, "category": "Logistics", "name": "Vaccine Supply Chain", "icon": "🚚" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Communication", "name": "Öffentlichkeitsarbeit", "icon": "📢" },
+        { "x": 4, "y": 1, "visible": false, "category": "Implementation", "name": "Impfstellen einrichten", "icon": "🏥" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Impfquoten überwachen", "icon": "📈" },
+        { "x": 6, "y": 1, "visible": false, "category": "Feedback", "name": "Bürgerbefragung", "icon": "💬" },
+        { "x": 7, "y": 1, "visible": true,  "category": "Evaluation", "name": "Effektivitätsbewertung", "icon": "✅" },
+        { "x": 8, "y": 1, "visible": false, "category": "Strategy", "name": "Langzeitstrategie entwickeln", "icon": "🏁" }
+      ]
+    },
+    {
+      "id": 20,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true,  "category": "Research", "name": "Studienhypothese formulieren", "icon": "🔬" },
+        { "x": 1, "y": 2, "visible": false, "category": "Research", "name": "Literaturrecherche", "icon": "📚" },
+        { "x": 1, "y": 3, "visible": true,  "category": "Design", "name": "Studienprotokoll entwerfen", "icon": "📝" },
+        { "x": 1, "y": 4, "visible": false, "category": "Ethics", "name": "Ethikkommission einholen", "icon": "⚖️" },
+        { "x": 1, "y": 5, "visible": true,  "category": "Recruitment", "name": "Patientenrekrutierung", "icon": "🤝" },
+        { "x": 2, "y": 1, "visible": false, "category": "Randomization", "name": "Randomisierungsverfahren", "icon": "🎲" },
+        { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Studienintervention", "icon": "💊" },
+        { "x": 4, "y": 1, "visible": false, "category": "Data Collection", "name": "Datenerfassung", "icon": "📊" },
+        { "x": 5, "y": 1, "visible": true,  "category": "Statistical Analysis", "name": "Auswertung der Daten", "icon": "📈" },
+        { "x": 5, "y": 2, "visible": false, "category": "Primary Outcome", "name": "Primärer Endpunkt", "icon": "✅" },
+        { "x": 5, "y": 3, "visible": true,  "category": "Secondary Outcome", "name": "Sekundäre Endpunkte", "icon": "📋" },
+        { "x": 5, "y": 4, "visible": false, "category": "Publication", "name": "Publikation der Ergebnisse", "icon": "📚" },
+        { "x": 5, "y": 5, "visible": true,  "category": "Conclusion", "name": "Langzeitforschung", "icon": "🏁" }
+      ]
+    }
+  ]
+  

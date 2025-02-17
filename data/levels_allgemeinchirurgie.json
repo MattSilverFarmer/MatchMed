@@ -1,0 +1,291 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Untersuchung", "name": "Anamnese & körperliche Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Abdominalultraschall", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labortest", "name": "Leukozyten & CRP", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Akute Appendizitis", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Entscheidung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Laparoskopische Appendektomie", "icon": "🔪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Intraoperative Antibiotikaprophylaxe", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Postoperative Schmerztherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Untersuchung", "name": "Abdominelle Untersuchung", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Abdominal-Ultraschall", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Labortest", "name": "Leukozytenmessung", "icon": "🧪" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Akute Cholezystitis", "icon": "🔥" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Entscheidung", "name": "Indikation zur Cholezystektomie", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Laparoskopische Cholezystektomie", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Postoperative Antibiotika", "icon": "💊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♀️" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Gallenwege", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Linke Unterbauchschmerzen", "icon": "😣" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labortest", "name": "Erhöhte Entzündungswerte", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "CT Abdomen", "icon": "🩻" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Divertikulitis", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapieentscheidung", "name": "Konservative Therapie", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Breitbandantibiotika", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Flüssigkeitszufuhr", "icon": "💧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Abszessdrainage", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Ernährungsumstellung", "icon": "🥗" },
+      { "x": 5, "y": 2, "visible": false, "category": "Kontrolle", "name": "Wiederholte CT-Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Therapeutischer Erfolg", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schwellung in der Leiste", "icon": "🤕" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "Ultraschall der Leiste", "icon": "🩻" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Inguinalhernie", "icon": "⚠️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Entscheidung", "name": "Operative Indikation", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "OP Technik", "name": "Hernienreparatur mit Netz", "icon": "🔧" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Medikament", "name": "Analgetika", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Hernienreparatur", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Starke Oberbauchschmerzen", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Erhöhte Amylase", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "CT Abdomen", "icon": "🩻" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Akute Pankreatitis", "icon": "🔥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapieentscheidung", "name": "Konservative Therapie", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Analgetika", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Therapie", "name": "Flüssigkeitszufuhr", "icon": "💧" },
+      { "x": 8, "y": 1, "visible": false, "category": "Intervention", "name": "Endoskopische Intervention", "icon": "🔧" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Ernährungsumstellung", "icon": "🥗" },
+      { "x": 5, "y": 2, "visible": false, "category": "Kontrolle", "name": "Wiederholte Labortests", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 4, "visible": false, "category": "Ergebnis", "name": "Stabile Pankreasfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Multiple Frakturen", "icon": "💥" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "CT Ganzkörper", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Polytrauma", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Schnelle Stabilisierung", "icon": "🚑" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Analgetika & Volumentherapie", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabilisierung erreicht", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Kolonuntersuchung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "CT Abdomen", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Divertikulitis", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Laparoskopische Colectomy", "icon": "🔪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Prophylaktische Antibiotika", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Postoperative Überwachung", "icon": "🏥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Darmfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Starke Bauchschmerzen", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Blutdruckabfall", "icon": "📉" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Bildgebung", "name": "FAST Ultraschall", "icon": "🩻" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Hämoperitoneum", "icon": "⚠️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Notfall-Laparoskopie", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Blutstillung", "icon": "🩹" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Volumentherapie", "icon": "💊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Kreislaufsituation", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Palpation der Schilddrüse", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labortest", "name": "TSH & T4 Messung", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Ultraschall der Schilddrüse", "icon": "🖼️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Schilddrüsenknoten", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Thyreoidektomie", "icon": "🔪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Jodprophylaxe", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Postoperative Kalziumkontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Langzeitnachsorge", "icon": "🏥" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Schilddrüse", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Kontrolle", "name": "Follow-up", "icon": "📆" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Starke Oberbauchschmerzen", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Abdominal-CT", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Perforiertes Ulcus ventriculi", "icon": "🔥" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Entscheidung", "name": "Notoperation indiziert", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Ulcusresektion", "icon": "🔪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Antibiotika", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Bauchregion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Starke Thoraxschmerzen", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Röntgen Thorax", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Pneumothorax", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Entscheidung", "name": "Dringende Intervention", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Technik", "name": "Thoraxdrainage", "icon": "💉" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Drainage-Kontrolle", "icon": "📋" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Wiederhergestellte Atmung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Akuter Abdominaltrauma", "icon": "😰" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Instabiler Kreislauf", "icon": "📉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "FAST Ultraschall", "icon": "🩻" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Hämoperitoneum", "icon": "⚠️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Notfall-Laparotomie", "icon": "🔪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Volumentherapie", "icon": "💊" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Elektive Hernienreparatur", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "CT Abdomen", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Ventrale Hernie", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Technik", "name": "Laparoskopische Hernienreparatur", "icon": "🔪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Intraoperative Antibiotika", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Postoperative Schmerztherapie", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Bauchwand", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Starke Bauchschmerzen", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Blutdruckabfall", "icon": "📉" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Bildgebung", "name": "FAST Ultraschall", "icon": "🩻" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Intraabdominelle Blutung", "icon": "⚠️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Notfall-Laparotomie", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Blutstillung", "icon": "🩹" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Volumentherapie", "icon": "💊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Vitalparameter", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Palpation der Schilddrüse", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labortest", "name": "TSH-Messung", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Ultraschall Schilddrüse", "icon": "🖼️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Schilddrüsenknoten", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Planung", "name": "OP-Indikation", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Thyreoidektomie", "icon": "🔪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Jodprophylaxe", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Postoperative Kalziumkontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Langzeitnachsorge", "icon": "🏥" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Schilddrüse", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Kontrolle", "name": "Follow-up", "icon": "📆" }
+    ]
+  },
+  {
+    "id": 16,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Starke Bauchschmerzen", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Erhöhter Laktatwert", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "CT Abdomen", "icon": "🩻" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Darminfarkt", "icon": "⚠️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Entscheidung", "name": "Notfall-OP indiziert", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "OP Technik", "name": "Darmresektion", "icon": "🔪" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Medikament", "name": "Antikoagulation", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Intensivüberwachung", "icon": "🏥" }
+    ]
+  },
+  {
+    "id": 17,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Schwellung und Rötung der Bauchwand", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Erhöhte Entzündungswerte", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Perforierte Divertikulitis", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Bildgebung", "name": "CT Abdomen", "icon": "🩻" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Entscheidung", "name": "Notfall-OP indiziert", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "OP Technik", "name": "Segmentale Resektion", "icon": "🔪" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Medikament", "name": "Breitbandantibiotika", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Intervention", "name": "Peritoneale Reinigung", "icon": "🧼" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Kontrolle", "name": "Wiederholte CT", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 4, "visible": false, "category": "Ergebnis", "name": "Stabile Darmfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 18,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "CT Abdomen", "icon": "🩻" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Lebertumor", "icon": "⚠️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Leberresektion", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Intraoperative Antibiotika", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Leberfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 19,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Atemnot", "icon": "😮‍💨" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "Röntgen Thorax", "icon": "🩻" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Pneumothorax", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "OP Entscheidung", "name": "Dringende Intervention", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Thoraxdrainage", "icon": "💉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Schmerztherapie", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Drainage-Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Wiederhergestellte Atmung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 20,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "Adipositas", "icon": "⚖️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Stoffwechselparameter", "icon": "🧪" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Metabolisches Syndrom", "icon": "⚠️" },
+      { "x": 2, "y": 3, "visible": false, "category": "Planung", "name": "OP-Indikation", "icon": "📐" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Magenbypass", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Postoperative Ernährungsumstellung", "icon": "🥗" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Gewichtsreduktion", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Stoffwechselparameter", "icon": "✅" }
+    ]
+  }
+]

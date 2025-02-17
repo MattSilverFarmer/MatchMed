@@ -1,0 +1,295 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Röntgen Femur", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true, "category": "Diagnose", "name": "Diaphysäre Femurfraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "OP Technik", "name": "Intramedulläre Nagelung", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true, "category": "Medikament", "name": "Antibiotika-Prophylaxe (Cephalosporin)", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Anatomie", "name": "Femurknochenstruktur", "icon": "🦴" },
+      { "x": 3, "y": 1, "visible": true, "category": "Intervention", "name": "Reposition und Fixierung", "icon": "🔨" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Minimal-invasive Technik", "icon": "🛠️" },
+      { "x": 5, "y": 1, "visible": true, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Postoperative Kontrolle", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Untersuchung Handgelenk", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Handgelenk", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true, "category": "Diagnose", "name": "Distale Radiusfraktur", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "OP Technik", "name": "Volar Plattenosteosynthese", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true, "category": "Anatomie", "name": "Radius & Ulna", "icon": "🦴" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie (NSAR)", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true, "category": "Therapie", "name": "Frührehabilitation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontroll-Röntgen", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true, "category": "Ergebnis", "name": "Stabile Handgelenkfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Untersuchung Knie", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "CT Scan Tibia", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true, "category": "Diagnose", "name": "Tibia-Plateau Fraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Anatomie", "name": "Tibia & Fibula", "icon": "🦴" },
+      { "x": 1, "y": 5, "visible": true, "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Plattenosteosynthese", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true, "category": "Medikament", "name": "Intraoperative Antibiotikaprophylaxe", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Reposition unter Bildgebung", "icon": "🔍" },
+      { "x": 5, "y": 1, "visible": true, "category": "OP Technik", "name": "MIPO", "icon": "🔧" },
+      { "x": 5, "y": 2, "visible": false, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 3, "visible": true, "category": "Nachsorge", "name": "Klinische Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true, "category": "Ergebnis", "name": "Stabile Kniefunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Untersuchung Schulter", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Clavicula", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true, "category": "Diagnose", "name": "Claviculafraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Plate Osteosynthese", "icon": "🔧" },
+      { "x": 5, "y": 1, "visible": true, "category": "Anatomie", "name": "Clavicula", "icon": "🦴" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Schulterfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Beckenschmerz", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "CT Becken", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true, "category": "Diagnose", "name": "Beckenfraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Anatomie", "name": "Beckenanatomie", "icon": "🦴" },
+      { "x": 5, "y": 1, "visible": true, "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 6, "y": 1, "visible": false, "category": "OP Technik", "name": "Schrauben- und Plattenfixierung", "icon": "🔧" },
+      { "x": 7, "y": 1, "visible": true, "category": "Medikament", "name": "Thromboseprophylaxe", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Therapie", "name": "Reposition", "icon": "🔨" },
+      { "x": 9, "y": 1, "visible": true, "category": "Rehabilitation", "name": "Postoperative Mobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontroll-CT", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 4, "visible": false, "category": "Ergebnis", "name": "Stabile Beckenstruktur", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Ellenbogenschmerz", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung Ellenbogen", "icon": "🩺" },
+      { "x": 3, "y": 1, "visible": true, "category": "Bildgebung", "name": "Röntgen Ellenbogen", "icon": "🩻" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Ellenbogenluxation", "icon": "💥" },
+      { "x": 5, "y": 1, "visible": true, "category": "OP Technik", "name": "Geschlossene Reposition", "icon": "🔧" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Immobilisation & Physiotherapie", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Unterschenkel Schmerz", "icon": "😣" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Röntgen Tibia", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true, "category": "Diagnose", "name": "Tibiaschaftfraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "OP Technik", "name": "Intramedulläre Nagelung", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true, "category": "Medikament", "name": "Antibiotikaprophylaxe", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Anatomie", "name": "Tibia & Fibula", "icon": "🦴" },
+      { "x": 3, "y": 1, "visible": true, "category": "Intervention", "name": "Reposition", "icon": "🔨" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Minimal-invasive Fixierung", "icon": "🛠️" },
+      { "x": 5, "y": 1, "visible": true, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Röntgenkontrolle", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Schmerz im Ellenbogen", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Ellenbogen", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true, "category": "Diagnose", "name": "Radialkopffraktur", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "OP Technik", "name": "Konservative Behandlung", "icon": "🛠️" },
+      { "x": 3, "y": 1, "visible": true, "category": "Anatomie", "name": "Radiuskopf", "icon": "🦴" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "NSAIDs", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true, "category": "Ergebnis", "name": "Stabile Ellenbogenfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Rückenschmerz", "icon": "😖" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "Röntgen Wirbelsäule", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true, "category": "Diagnose", "name": "Kompressionsfraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "OP Technik", "name": "Kyphoplastie", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true, "category": "Medikament", "name": "Schmerzmedikation", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Anatomie", "name": "Wirbelkörper", "icon": "🦴" },
+      { "x": 3, "y": 1, "visible": true, "category": "Intervention", "name": "Reposition mittels Kyphoplastie", "icon": "🔨" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Zementaugmentation", "icon": "🧱" },
+      { "x": 5, "y": 1, "visible": true, "category": "Nachsorge", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true, "category": "Ergebnis", "name": "Reduzierte Schmerzintensität", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Prävention", "name": "Knochenstärkung", "icon": "🏋️" },
+      { "x": 5, "y": 5, "visible": true, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Handgelenkschmerz", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Distal Radius", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true, "category": "Diagnose", "name": "Distale Radiusfraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Volar Plattenosteosynthese", "icon": "🔧" },
+      { "x": 5, "y": 1, "visible": true, "category": "Anatomie", "name": "Radius & Handgelenk", "icon": "🦴" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Schmerztherapie (Opioide)", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Gelenkfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Beckenschmerz", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "CT Becken", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true, "category": "Diagnose", "name": "Beckenfraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Anatomie", "name": "Pelvisstruktur", "icon": "🦴" },
+      { "x": 5, "y": 1, "visible": true, "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 6, "y": 1, "visible": false, "category": "OP Technik", "name": "Plattenfixation", "icon": "🔧" },
+      { "x": 7, "y": 1, "visible": true, "category": "Medikament", "name": "Thromboseprophylaxe", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Therapie", "name": "Reposition", "icon": "🔨" },
+      { "x": 9, "y": 1, "visible": true, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontroll-CT", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 4, "visible": false, "category": "Ergebnis", "name": "Stabile Beckenstruktur", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Kiefer Schmerz", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Panoramaröntgen", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true, "category": "Diagnose", "name": "Mandibulafraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Miniplattenosteosynthese", "icon": "🔧" },
+      { "x": 5, "y": 1, "visible": true, "category": "Anatomie", "name": "Mandibula", "icon": "🦴" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Kiefer-Nachsorge", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Schulterinstabilität", "icon": "🤕" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Klinische Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 3, "visible": true, "category": "Diagnose", "name": "Akute Schulterluxation", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "OP Technik", "name": "Geschlossene Reposition", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true, "category": "Medikament", "name": "NSAR", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Anatomie", "name": "Schultergelenk", "icon": "🦴" },
+      { "x": 3, "y": 1, "visible": true, "category": "Therapie", "name": "Immobilisation", "icon": "🛌" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true, "category": "Ergebnis", "name": "Stabile Schulterfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Feedback", "name": "Patientenaufklärung", "icon": "💬" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Symptom", "name": "Offener Wundriss am Unterschenkel", "icon": "🔪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Tibia", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true, "category": "Diagnose", "name": "Offene Tibiafraktur", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "OP Technik", "name": "Debridement", "icon": "✂️" },
+      { "x": 3, "y": 1, "visible": true, "category": "Anatomie", "name": "Tibia", "icon": "🦴" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Antibiotikatherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true, "category": "Intervention", "name": "Externe Fixierung", "icon": "🛠️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Wundkontrolle", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true, "category": "Ergebnis", "name": "Wundheilung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Symptom", "name": "Starke Unterarmschmerzen", "icon": "😣" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "CT Forearm", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true, "category": "Diagnose", "name": "Komplexe Radius- und Ulna-Fraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Anatomie", "name": "Unterarmknochen", "icon": "🦴" },
+      { "x": 1, "y": 5, "visible": true, "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 2, "y": 1, "visible": false, "category": "OP Technik", "name": "Dual Plattenfixation", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true, "category": "Medikament", "name": "Antibiotikaprophylaxe", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Reposition unter Fluoroskopie", "icon": "🔍" },
+      { "x": 5, "y": 1, "visible": true, "category": "OP Technik", "name": "Offene Reposition und Fixierung", "icon": "🔧" },
+      { "x": 5, "y": 2, "visible": false, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 3, "visible": true, "category": "Nachsorge", "name": "Kontroll-CT", "icon": "📋" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true, "category": "Ergebnis", "name": "Gute Funktionswiederherstellung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 16,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Schwere Handschmerzen", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Hand", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true, "category": "Diagnose", "name": "Metakarpalfraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "K-Draht-Fixation", "icon": "🔧" },
+      { "x": 5, "y": 1, "visible": true, "category": "Anatomie", "name": "Handknochen", "icon": "🦴" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "NSAR", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Handfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 17,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Symptom", "name": "Fersenschmerz", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Ferse", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true, "category": "Diagnose", "name": "Calcaneusfraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Anatomie", "name": "Fußknochen", "icon": "🦴" },
+      { "x": 5, "y": 1, "visible": true, "category": "Planung", "name": "OP-Planung", "icon": "📐" },
+      { "x": 6, "y": 1, "visible": false, "category": "OP Technik", "name": "Screw Fixation", "icon": "🔩" },
+      { "x": 7, "y": 1, "visible": true, "category": "Medikament", "name": "Analgetika", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 9, "y": 1, "visible": true, "category": "Rehabilitation", "name": "Fußrehabilitation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrollröntgen", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 4, "visible": false, "category": "Ergebnis", "name": "Funktionelle Wiederherstellung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 18,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Röntgen Clavicula", "icon": "🩻" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Erhöhter Schmerz", "icon": "😖" },
+      { "x": 3, "y": 1, "visible": true, "category": "Diagnose", "name": "Claviculafraktur", "icon": "💥" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Minimale Plattenfixierung", "icon": "🔧" },
+      { "x": 5, "y": 1, "visible": true, "category": "Anatomie", "name": "Clavicula", "icon": "🦴" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Rehabilitative Therapie", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 19,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Beckenschmerz", "icon": "😣" },
+      { "x": 1, "y": 2, "visible": false, "category": "Bildgebung", "name": "CT Becken", "icon": "🩻" },
+      { "x": 1, "y": 3, "visible": true, "category": "Diagnose", "name": "Acetabulumfraktur", "icon": "💥" },
+      { "x": 1, "y": 4, "visible": false, "category": "OP Technik", "name": "Perkutane Schraubenfixierung", "icon": "🔧" },
+      { "x": 1, "y": 5, "visible": true, "category": "Medikament", "name": "Antibiotika-Prophylaxe", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Anatomie", "name": "Beckenanatomie", "icon": "🦴" },
+      { "x": 3, "y": 1, "visible": true, "category": "Intervention", "name": "Reposition unter Bildgebung", "icon": "🔍" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Technik", "name": "Minimal-invasive Technik", "icon": "🛠️" },
+      { "x": 5, "y": 1, "visible": true, "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "OP-Zentrum Kontrolle", "icon": "📋" }
+    ]
+  },
+  {
+    "id": 20,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Untersuchung Ellenbogen", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bildgebung", "name": "Röntgen Ellenbogen", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true, "category": "Diagnose", "name": "Proximale Ulnafraktur", "icon": "💥" },
+      { "x": 2, "y": 3, "visible": false, "category": "OP Technik", "name": "Externe Fixation", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true, "category": "Anatomie", "name": "Ulna", "icon": "🦴" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Opioide", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true, "category": "Therapie", "name": "Reposition & Fixierung", "icon": "🔨" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontroll-Röntgen", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true, "category": "Ergebnis", "name": "Stabile Ellenbogenfunktion", "icon": "✅" }
+    ]
+  }
+]

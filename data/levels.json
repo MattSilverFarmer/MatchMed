@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true, "category": "Diagnose", "name": "Blutdruckmessung", "icon": "🩺" },
+        { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Physiotherapie", "icon": "💊" },
+        { "x": 3, "y": 1, "visible": false, "category": "Medikament", "name": "Ibuprofen", "icon": "💉" }
+      ]
+    },
+    {
+      "id": 2,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true, "category": "Krankheit", "name": "Diabetes mellitus", "icon": "🤒" },
+        { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Insulintherapie", "icon": "💊" },
+        { "x": 1, "y": 2, "visible": false, "category": "Medikament", "name": "Metformin", "icon": "💉" },
+        { "x": 2, "y": 2, "visible": true, "category": "Diagnose", "name": "HbA1c-Test", "icon": "🩺" }
+      ]
+    },
+    {
+      "id": 3,
+      "blocks": [
+        { "x": 2, "y": 1, "visible": true, "category": "Bildgebung", "name": "CT-Scan", "icon": "🩻" },
+        { "x": 1, "y": 2, "visible": false, "category": "Operation", "name": "Appendektomie", "icon": "🔪" },
+        { "x": 2, "y": 2, "visible": true, "category": "Krankheit", "name": "Appendizitis", "icon": "🤒" },
+        { "x": 3, "y": 2, "visible": false, "category": "Therapie", "name": "Antibiotika", "icon": "💊" }
+      ]
+    },
+    {
+      "id": 4,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true, "category": "Labor", "name": "Blutbild", "icon": "🔬" },
+        { "x": 1, "y": 2, "visible": false, "category": "Krankheit", "name": "Anämie", "icon": "🤒" },
+        { "x": 1, "y": 3, "visible": false, "category": "Therapie", "name": "Eisenpräparate", "icon": "💊" },
+        { "x": 1, "y": 4, "visible": true, "category": "Diagnose", "name": "Retikulozytenzahl", "icon": "🩺" }
+      ]
+    },
+    {
+      "id": 5,
+      "blocks": [
+        { "x": 2, "y": 1, "visible": true, "category": "Krankheit", "name": "Herzinfarkt", "icon": "🤒" },
+        { "x": 2, "y": 2, "visible": false, "category": "Therapie", "name": "Thrombolyse", "icon": "💊" },
+        { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "EKG", "icon": "🩺" },
+        { "x": 3, "y": 2, "visible": false, "category": "Operation", "name": "BYPASS-OP", "icon": "🔪" },
+        { "x": 2, "y": 3, "visible": true, "category": "Medikament", "name": "Aspirin", "icon": "💉" }
+      ]
+    },
+    {
+      "id": 6,
+      "blocks": [
+        { "x": 2, "y": 1, "visible": true, "category": "Bildgebung", "name": "MRT", "icon": "🩻" },
+        { "x": 1, "y": 2, "visible": false, "category": "Krankheit", "name": "Multiple Sklerose", "icon": "🤒" },
+        { "x": 2, "y": 2, "visible": true, "category": "Therapie", "name": "Immuntherapie", "icon": "💊" },
+        { "x": 3, "y": 2, "visible": false, "category": "Medikament", "name": "Interferon", "icon": "💉" },
+        { "x": 2, "y": 3, "visible": false, "category": "Operation", "name": "Lumbotomie", "icon": "🔪" }
+      ]
+    },
+    {
+      "id": 7,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true, "category": "Labor", "name": "Urintest", "icon": "🔬" },
+        { "x": 3, "y": 1, "visible": false, "category": "Diagnose", "name": "Allergietest", "icon": "🩺" },
+        { "x": 2, "y": 2, "visible": false, "category": "Medikament", "name": "Cetirizin", "icon": "💉" },
+        { "x": 1, "y": 3, "visible": false, "category": "Krankheit", "name": "Allergie", "icon": "🤒" },
+        { "x": 3, "y": 3, "visible": true, "category": "Therapie", "name": "Hyposensibilisierung", "icon": "💊" }
+      ]
+    },
+    {
+      "id": 8,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true, "category": "Bildgebung", "name": "Röntgen", "icon": "🩻" },
+        { "x": 2, "y": 1, "visible": false, "category": "Krankheit", "name": "Fraktur", "icon": "🤒" },
+        { "x": 3, "y": 1, "visible": false, "category": "Operation", "name": "Plattenosteosynthese", "icon": "🔪" },
+        { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Reha", "icon": "💊" },
+        { "x": 5, "y": 1, "visible": true, "category": "Medikament", "name": "Calcium", "icon": "💉" }
+      ]
+    },
+    {
+      "id": 9,
+      "blocks": [
+        { "x": 1, "y": 1, "visible": true, "category": "Labor", "name": "Blutgerinnung", "icon": "🔬" },
+        { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Gerinnungsfaktoren", "icon": "🩺" },
+        { "x": 1, "y": 3, "visible": false, "category": "Medikament", "name": "Heparin", "icon": "💉" },
+        { "x": 1, "y": 4, "visible": false, "category": "Therapie", "name": "Antikoagulation", "icon": "💊" },
+        { "x": 1, "y": 5, "visible": true, "category": "Krankheit", "name": "Thrombose", "icon": "🤒" }
+      ]
+    },
+    {
+      "id": 10,
+      "blocks": [
+        { "x": 2, "y": 1, "visible": true, "category": "Diagnose", "name": "EKG", "icon": "🩺" },
+        { "x": 1, "y": 2, "visible": false, "category": "Krankheit", "name": "Arrhythmie", "icon": "🤒" },
+        { "x": 2, "y": 2, "visible": false, "category": "Labor", "name": "Blutfett", "icon": "🔬" },
+        { "x": 3, "y": 2, "visible": false, "category": "Medikament", "name": "Statine", "icon": "💉" },
+        { "x": 2, "y": 3, "visible": true, "category": "Therapie", "name": "Lebensstil-Änderung", "icon": "💊" },
+        { "x": 2, "y": 4, "visible": false, "category": "Operation", "name": "BYPASS-OP", "icon": "🔪" }
+      ]
+    }
+  ]
+  

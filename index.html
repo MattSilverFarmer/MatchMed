@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tägliches Medizin Spiel</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Consent Popup -->
+  <div id="consent-popup" class="modal">
+    <div class="modal-content">
+      <h2>Willkommen bei MedSpiel!</h2>
+      <p>
+        Dies ist vor allem ein witziges Knobbelspiel – die Inhalte sind nicht dafür gedacht, zur Behandlung von Patienten verwendet zu werden. Aber unter uns: Du solltest deine Therapie sowieso nicht auf ein anonymes Hobbyprojekt aus dem Internet stützen.
+      </p>
+      <p>
+        Hinweis: Diese Seite nutzt Dienste wie Google Fonts, Google Analytics und Google Ads, um dir ein optimales Erlebnis zu bieten.
+      </p>
+      <div class="popup-buttons">
+        <button id="consent-accept" class="btn">Einverstanden</button>
+        <button id="consent-more" class="btn">Mehr erfahren</button>
+      </div>
+      <div id="consent-details" style="display:none;">
+        <ul>
+            <p>
+                Diese Website verwendet Dienste von Drittanbietern wie Google Analytics, Google Fonts und Google AdSense. Durch die Nutzung dieser Dienste können personenbezogene Daten, wie Ihre IP-Adresse, an Google in die USA übertragen und dort gespeichert werden. Google Analytics dient der Analyse der Websitenutzung, um unser Angebot zu verbessern. Google Fonts ermöglicht die einheitliche Darstellung von Schriftarten. Google AdSense dient der Einbindung von Werbeanzeigen. Bitte beachten Sie, dass in den USA kein dem EU-Datenschutz entsprechendes Datenschutzniveau besteht. Weitere Informationen finden Sie in unserer Datenschutzerklärung.          
+            </p>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Help Popup -->
+  <div id="help-popup" class="modal">
+    <div class="modal-content">
+      <h2>So funktioniert das Spiel</h2>
+      <p>
+        In diesem Spiel musst du zusammenhängende Klötzchen-Folgen bilden. Verbundene Klötze haben immer etwas miteinander zu tun. Ziehe den passenden medizinischen Oberbegriff in das leere Feld. Bei korrekter Zuordnung erscheint der vollständige Name. Jeder Fehlversuch kostet dich ein Leben.
+      </p>
+      <button id="help-close" class="btn">Schließen</button>
+    </div>
+  </div>
+
+  <!-- Ergebnis-Popup -->
+  <div id="result-popup" class="modal">
+    <div class="modal-content">
+      <h2 id="result-title"></h2>
+      <p id="result-message"></p>
+      <!-- AdCard im Ergebnis-Popup -->
+      <div id="result-ad" class="card"></div>
+      <button id="result-next" class="btn">Nächstes Level</button>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header>
+    <div class="header-left">
+      <div class="logo">MatchMed - tägliches Medizin Puzzle</div>
+    </div>
+    <div class="header-right">
+      <button id="home-btn" class="btn home-btn">Home</button>
+      <button id="help-icon" class="btn help-btn">?</button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Container für Sidebar und Spielinhalt -->
+    <div id="game-container">
+      <!-- Fachrichtungs-Sidebar (schlicht, ohne eigenen Hintergrund) -->
+      <div id="category-sidebar">
+        <button class="category-btn" data-category="Tageslevel">💡 Tageslevel</button>
+        <button class="category-btn" data-category="Bonuslevel">⭐ Bonuslevel</button>
+        <button class="category-btn" data-category="Anatomie">🦴 Anatomie</button>
+        <button class="category-btn" data-category="Physiologie">⚙️ Physiologie</button>
+        <button class="category-btn" data-category="Innere Medizin">🏥 Innere Medizin</button>
+        <button class="category-btn" data-category="Augenheilkunde">👁️ Augenheilkunde</button>
+        <button class="category-btn" data-category="Unfallchirurgie">🚑 Unfallchirurgie</button>
+        <button class="category-btn" data-category="Allgemeinchirurgie">🔪 Allgemeinchirurgie</button>
+        <button class="category-btn" data-category="Anästhesie">😴 Anästhesie</button>
+        <button class="category-btn" data-category="Gynäkologie">♀️ Gynäkologie</button>
+        <button class="category-btn" data-category="Neurologie">🧠 Neurologie</button>
+        <button class="category-btn" data-category="Orthopädie">🦵 Orthopädie</button>
+        <button class="category-btn" data-category="Pädiatrie">👶 Pädiatrie</button>
+        <button class="category-btn" data-category="Zahnmedizin">🦷 Zahnmedizin</button>
+      </div>
+      <!-- Spielinhalt -->
+      <div id="game-content">
+        <!-- Lebensanzeige -->
+        <div id="lives-text">Leben: <span id="lives-count">7 ❤️</span></div>
+        <!-- Spielfeld -->
+        <section id="game-area">
+          <!-- Spielblöcke werden hier positioniert -->
+        </section>
+        <!-- Draggable Blocks Container -->
+        <section id="blocks-container">
+          <!-- Draggable Blöcke erscheinen hier -->
+        </section>
+        <!-- Werbungscard unter den draggable Objekten -->
+        <section id="ad-card-main" class="card"></section>
+        <!-- Kontaktinfo -->
+        <div id="contact-info">
+          <p>Dies ist ein Hobby-Projekt. Bei Anregungen oder Fehlern schreib uns gern: info@medspiel.de</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      &copy; 2025 MedSpiel. &nbsp;|&nbsp;
+      <a href="impressum.html">Impressum</a> &nbsp;|&nbsp;
+      <a href="datenschutz.html">Datenschutz</a>
+    </p>
+  </footer>
+
+  <!-- JavaScript-Dateien -->
+  <script src="js/popup.js"></script>
+  <script src="js/ads.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

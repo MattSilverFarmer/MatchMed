@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Patientenvorbereitung", "name": "Anamnese & körperliche Untersuchung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labortest", "name": "Blutbild & Elektrolyte", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bildgebung", "name": "EKG", "icon": "📈" },
+      { "x": 1, "y": 4, "visible": false, "category": "Risikobewertung", "name": "ASA-Klassifikation", "icon": "⚖️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Planung", "name": "Anästhesieplanung", "icon": "📋" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Prämedikation (Midazolam)", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Indikation", "name": "Operationsbesprechung", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "Dokumentation", "name": "Präop-Bericht", "icon": "📝" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Team", "name": "Operationsbriefing", "icon": "👥" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Patient bereit für Narkose", "icon": "🚀" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Induktion", "name": "Inhalationsinduktion einleiten", "icon": "🌬️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Sevofluran vorbereiten", "icon": "💊" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Überwachung", "name": "Vitalparameter messen", "icon": "📊" },
+      { "x": 2, "y": 3, "visible": false, "category": "Atemwege", "name": "Maskenbeatmung einleiten", "icon": "😷" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Intubation", "name": "Direkte Laryngoskopie", "icon": "🔍" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Fentanyl dosieren", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Sauerstoffsättigung prüfen", "icon": "💡" },
+      { "x": 5, "y": 2, "visible": false, "category": "Team", "name": "Anästhesieteam briefen", "icon": "👥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Sicher intubiert", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Maintenance", "name": "Narkose aufrechterhalten", "icon": "💤" },
+      { "x": 1, "y": 2, "visible": false, "category": "Medikament", "name": "Desfluran einrichten", "icon": "💊" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Monitoring", "name": "Invasive Blutdruckmessung", "icon": "📈" },
+      { "x": 1, "y": 4, "visible": false, "category": "Beatmung", "name": "Beatmungsparameter justieren", "icon": "😷" },
+      { "x": 1, "y": 5, "visible": true,  "category": "CO2-Überwachung", "name": "End-Tidal CO2 prüfen", "icon": "📊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Remifentanil Infusion", "icon": "💉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Gerätekontrolle", "name": "Narkosegerät checken", "icon": "🔧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Sicherheit", "name": "Notfallkoffer kontrollieren", "icon": "🧰" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Teamkommunikation", "name": "Intraoperative Besprechung", "icon": "👥" },
+      { "x": 6, "y": 1, "visible": false, "category": "Dokumentation", "name": "Narkosedaten aufzeichnen", "icon": "📝" },
+      { "x": 5, "y": 2, "visible": true,  "category": "Ergebnis", "name": "Stabile Narkose", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": false, "category": "Feedback", "name": "Anpassung der Parameter", "icon": "💬" },
+      { "x": 5, "y": 4, "visible": true,  "category": "Kontrolle", "name": "Regelmäßige Überprüfung", "icon": "📆" },
+      { "x": 5, "y": 5, "visible": false, "category": "Abschluss", "name": "Protokoll abschließen", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Emergenz", "name": "Narkose absetzen", "icon": "⏹️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Reversals vorbereiten (Neostigmin)", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Überwachung", "name": "Atemfrequenz kontrollieren", "icon": "💨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intubation", "name": "Extubation einleiten", "icon": "🚪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Aufwachphase", "name": "Aufwachphase überwachen", "icon": "🔍" },
+      { "x": 6, "y": 1, "visible": false, "category": "Team", "name": "Aufwachraumübergabe", "icon": "👥" },
+      { "x": 5, "y": 2, "visible": true,  "category": "Ergebnis", "name": "Patient wach", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": false, "category": "Dokumentation", "name": "Aufwachprotokoll", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Schmerzmanagement", "name": "Postoperative Schmerzen", "icon": "😫" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Analgetika dosieren", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Schmerzscore erfassen", "icon": "📊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Epidurale Analgesie", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Planung", "name": "Schmerzmanagement-Plan", "icon": "📋" },
+      { "x": 6, "y": 1, "visible": false, "category": "Dokumentation", "name": "Schmerztagebuch", "icon": "📝" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Team", "name": "Interdisziplinäre Abstimmung", "icon": "👥" },
+      { "x": 8, "y": 1, "visible": false, "category": "Medikament", "name": "NSAIDs", "icon": "💊" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Optimale Schmerzkontrolle", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenfeedback", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Regelmäßige Kontrolle", "icon": "📆" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitplan", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Airway Management", "name": "Schwieriger Atemweg erkannt", "icon": "🚨" },
+      { "x": 2, "y": 1, "visible": false, "category": "Technik", "name": "Videolaryngoskopie", "icon": "📹" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Muskelrelaxans (Succinylcholin)", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Fiberoptische Intubation", "icon": "🔦" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Atemwegsüberwachung", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Sicher intubiert", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Regionalanästhesie", "name": "Vorbereitung Spinalanästhesie", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Technik", "name": "Lumbalpunktion", "icon": "💉" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Medikament", "name": "Bupivacain", "icon": "💊" },
+      { "x": 1, "y": 4, "visible": false, "category": "Überwachung", "name": "Sensibilitätskontrolle", "icon": "🔍" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Erfolgreiche Blockade", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "Dokumentation", "name": "Blockprotokoll", "icon": "📝" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Feedback", "name": "Patientenzufriedenheit", "icon": "👍" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Abschluss", "name": "OP-Bereitschaft", "icon": "🏁" },
+      { "x": 6, "y": 1, "visible": false, "category": "Team", "name": "Briefing", "icon": "👥" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Regionalanästhesie", "name": "Epiduralanästhesie Vorbereitung", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Technik", "name": "Epiduralpunktion", "icon": "💉" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Medikament", "name": "Ropivacain", "icon": "💊" },
+      { "x": 2, "y": 3, "visible": false, "category": "Überwachung", "name": "Sensibilitätsprüfung", "icon": "🔍" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Erfolgreiche Epiduralblockade", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "Dokumentation", "name": "Epiduralprotokoll", "icon": "📝" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Feedback", "name": "Patientenfeedback", "icon": "💬" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Abschluss", "name": "OP-Freigabe", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Sedierung", "name": "Sedierungsvorbereitung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Medikament", "name": "Propofol Infusion", "icon": "💊" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Monitoring", "name": "Vitalparameter erfassen", "icon": "📊" },
+      { "x": 1, "y": 4, "visible": false, "category": "Technik", "name": "BIS-Monitoring", "icon": "📈" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Endoskopie-Sedierung", "icon": "💉" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Fentanyl", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Team", "name": "Sedierungsbriefing", "icon": "👥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Dokumentation", "name": "Sedierungsprotokoll", "icon": "📝" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Erfolgreiche Sedierung", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenbewertung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Aufwachphase", "icon": "🏥" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Kontrolle", "name": "Sedierungsmonitoring", "icon": "📆" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Awake Craniotomy", "name": "Patientenvorbereitung", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Lokalanästhetikum", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Technik", "name": "Awake Craniotomy Setup", "icon": "🖥️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Neuroüberwachung", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Interaktion", "name": "Interaktive Kommunikation", "icon": "🗣️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Team", "name": "Chirurgische Abstimmung", "icon": "👥" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Operation erfolgreich", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Abschluss", "name": "Dokumentation", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Trauma", "name": "Erstversorgung im Schockraum", "icon": "🚑" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "FAST Ultraschall", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Intervention", "name": "Schnelle Intubation", "icon": "🔪" },
+      { "x": 2, "y": 3, "visible": false, "category": "Medikament", "name": "Etomidat Induktion", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Invasive Überwachung", "icon": "📈" },
+      { "x": 4, "y": 1, "visible": false, "category": "Team", "name": "Notfallteam Briefing", "icon": "👥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Vitalparameter", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Abschluss", "name": "Übergabe an Intensivstation", "icon": "🏥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Feedback", "name": "Teamdebriefing", "icon": "💬" },
+      { "x": 5, "y": 4, "visible": false, "category": "Dokumentation", "name": "OP-Protokoll", "icon": "📝" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Rehabilitation", "name": "Frühmobilisation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 6, "visible": false, "category": "Kontrolle", "name": "Follow-up", "icon": "📆" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Ambulant", "name": "Patientenvorbereitung", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Midazolam Prämedikation", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Induktion", "name": "Propofol Induktion", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Monitoring", "name": "Standardmonitoring", "icon": "📊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Schnelle Aufwachphase", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Regionalanästhesie", "name": "Ultraschallgesteuerte Nervenblockade", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Technik", "name": "Nervenlokalisierung", "icon": "🔍" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Medikament", "name": "Lidocain", "icon": "💊" },
+      { "x": 1, "y": 4, "visible": false, "category": "Überwachung", "name": "Blockdauer kontrollieren", "icon": "⌛" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Schmerzausschaltung", "icon": "✅" },
+      { "x": 2, "y": 1, "visible": false, "category": "Dokumentation", "name": "Blockprotokoll", "icon": "📝" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Feedback", "name": "Patientenzufriedenheit", "icon": "👍" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Nachkontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Abschluss", "name": "OP-Bereitschaft", "icon": "🏁" },
+      { "x": 6, "y": 1, "visible": false, "category": "Team", "name": "Interdisziplinäres Briefing", "icon": "👥" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Sedierung", "name": "Sedierungsvorbereitung", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Propofol", "icon": "💊" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Monitoring", "name": "Vitalparameter messen", "icon": "📊" },
+      { "x": 2, "y": 3, "visible": false, "category": "Intervention", "name": "Tiefe Sedierung einleiten", "icon": "😴" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Erfolgreiche Sedierung", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "Dokumentation", "name": "Sedierungsprotokoll", "icon": "📝" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Feedback", "name": "Patientenbewertung", "icon": "💬" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Aufwachraumüberwachung", "icon": "🏥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Pädiatrie", "name": "Kindervorbereitung", "icon": "🩺" },
+      { "x": 1, "y": 2, "visible": false, "category": "Medikament", "name": "Orale Midazolam", "icon": "💊" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Induktion", "name": "Inhalationsanästhesie", "icon": "🌬️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Monitoring", "name": "Pädiatrisches Monitoring", "icon": "📊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intubation", "name": "Maskenintubation", "icon": "😷" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Fentanyl", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Vitalparameter", "icon": "✅" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Aufwachphase", "icon": "🏥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Feedback", "name": "Elternberatung", "icon": "💬" },
+      { "x": 5, "y": 2, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Kontrolle", "name": "Follow-up", "icon": "📆" },
+      { "x": 5, "y": 4, "visible": false, "category": "Dokumentation", "name": "Anästhesieprotokoll", "icon": "📝" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Team", "name": "Interdisziplinäres Briefing", "icon": "👥" }
+    ]
+  },
+  {
+    "id": 16,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Notfall", "name": "Atemwegsobstruktion erkennen", "icon": "🚨" },
+      { "x": 2, "y": 1, "visible": false, "category": "Technik", "name": "Cricothyrotomie Vorbereitung", "icon": "🔧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "OP Technik", "name": "Notfall-Cricothyrotomie", "icon": "✂️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Lokalanästhesie & Sedierung", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Sauerstoffsättigung prüfen", "icon": "📊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Team", "name": "Notfallteam briefen", "icon": "👥" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Sicherer Atemweg", "icon": "✅" },
+      { "x": 8, "y": 1, "visible": false, "category": "Abschluss", "name": "Dokumentation", "icon": "📝" }
+    ]
+  },
+  {
+    "id": 17,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "PONV", "name": "Übelkeit & Erbrechen", "icon": "🤢" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labortest", "name": "Keine spezifischen Tests", "icon": "🧪" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Postoperative Übelkeit (PONV)", "icon": "⚠️" },
+      { "x": 2, "y": 3, "visible": false, "category": "Medikament", "name": "Ondansetron verabreichen", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Flüssigkeitstherapie", "icon": "💧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Akupunktur", "icon": "🧘" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter überwachen", "icon": "📊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenfeedback", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Reduzierte Übelkeit", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Dokumentation", "name": "Anästhesieprotokoll", "icon": "📝" },
+      { "x": 6, "y": 1, "visible": false, "category": "Team", "name": "Interdisziplinäres Briefing", "icon": "👥" }
+    ]
+  },
+  {
+    "id": 18,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Sedierung", "name": "Aufwachsedierung", "icon": "😌" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Dexmedetomidin", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Vitalparameter messen", "icon": "📊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Technik", "name": "Lokaler Nervenblock", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Sedierung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Ambulante Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 19,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Kardiologische Bewertung", "name": "Echokardiographie", "icon": "📈" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labortest", "name": "Blutgasanalyse", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Planung", "name": "Spezielle Narkosestrategie", "icon": "📋" },
+      { "x": 1, "y": 4, "visible": false, "category": "Induktion", "name": "Etomidat Induktion", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Monitoring", "name": "Invasive Blutdruckmessung", "icon": "📊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Team", "name": "Interdisziplinäres Briefing", "icon": "👥" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Postoperative Überwachung", "icon": "🏥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Herzfunktion", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Dokumentation", "name": "Narkoseprotokoll", "icon": "📝" },
+      { "x": 5, "y": 2, "visible": false, "category": "Abschluss", "name": "OP-Abschluss", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 20,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Trauma", "name": "Erstversorgung bei Polytrauma", "icon": "🚑" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "FAST Ultraschall", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Induktion", "name": "Rapid Sequence Intubation", "icon": "🔪" },
+      { "x": 2, "y": 3, "visible": false, "category": "Medikament", "name": "Propofol & Fentanyl", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Monitoring", "name": "Invasive Überwachung", "icon": "📈" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Schnelle Absicherung der Atemwege", "icon": "🔒" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Vitalparameter", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Abschluss", "name": "Übergabe & Dokumentation", "icon": "🏁" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Feedback", "name": "Teamdebriefing", "icon": "💬" }
+    ]
+  }
+]

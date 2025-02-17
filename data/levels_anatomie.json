@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Knochen", "name": "Clavicula", "icon": "🦴" },
+      { "x": 1, "y": 2, "visible": false, "category": "Knochen", "name": "Acromion", "icon": "🦴" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Knochen", "name": "Scapula", "icon": "🦴" },
+      { "x": 1, "y": 4, "visible": false, "category": "Knochen", "name": "Humerus", "icon": "🦴" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Muskulatur", "name": "M. deltoideus", "icon": "💪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Nerv", "name": "N. axillaris", "icon": "⚡" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Muskulatur", "name": "M. biceps brachii", "icon": "💪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Knochen", "name": "Radius", "icon": "🦴" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Muskulatur", "name": "M. brachialis", "icon": "💪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nerv", "name": "N. medianus", "icon": "⚡" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Haut", "name": "Cutis", "icon": "🩹" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bindegewebe", "name": "Subkutis", "icon": "🔬" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Muskulatur", "name": "M. orbicularis oculi", "icon": "💪" },
+      { "x": 2, "y": 3, "visible": false, "category": "Nerv", "name": "N. facialis", "icon": "⚡" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Muskulatur", "name": "M. zygomaticus", "icon": "💪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Knochen", "name": "Os zygomaticum", "icon": "🦴" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Muskulatur", "name": "M. masseter", "icon": "💪" },
+      { "x": 5, "y": 2, "visible": false, "category": "Knochen", "name": "Mandibula", "icon": "🦴" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Muskulatur", "name": "M. temporalis", "icon": "💪" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Knochen", "name": "Sternum", "icon": "🦴" },
+      { "x": 1, "y": 2, "visible": false, "category": "Knochen", "name": "Costae", "icon": "🦴" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Knorpel", "name": "Rippenknorpel", "icon": "🎋" },
+      { "x": 1, "y": 4, "visible": false, "category": "Muskulatur", "name": "Interkostalmuskulatur", "icon": "💪" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Bindegewebe", "name": "Pleura", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Organ", "name": "Lunge", "icon": "🫁" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Organ", "name": "Trachea", "icon": "🫁" },
+      { "x": 4, "y": 1, "visible": false, "category": "Organ", "name": "Larynx", "icon": "🗣️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Organ", "name": "Ösophagus", "icon": "🩺" },
+      { "x": 5, "y": 2, "visible": false, "category": "Organ", "name": "Herz", "icon": "❤️" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Gefäßsystem", "name": "Aorta", "icon": "🩸" },
+      { "x": 5, "y": 4, "visible": false, "category": "Gefäßsystem", "name": "Vena cava", "icon": "🩸" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Muskulatur", "name": "Diaphragma", "icon": "💪" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Organ", "name": "Tonsilla palatina", "icon": "🍃" },
+      { "x": 2, "y": 1, "visible": false, "category": "Lymphgewebe", "name": "Rachenmandeln", "icon": "🧩" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Lymphsystem", "name": "Lymphknoten", "icon": "🔶" },
+      { "x": 4, "y": 1, "visible": false, "category": "Organ", "name": "Pharynx", "icon": "🩺" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Muskulatur", "name": "M. palatopharyngeus", "icon": "💪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nervensystem", "name": "N. glossopharyngeus", "icon": "⚡" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Gefäßsystem", "name": "A. carotis", "icon": "🩸" },
+      { "x": 8, "y": 1, "visible": false, "category": "Gefäßsystem", "name": "V. jugularis", "icon": "🩸" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 4, "visible": true,  "category": "Anatomie – Leber", "name": "Leberlappen", "icon": "🍃" },
+      { "x": 2, "y": 4, "visible": false, "category": "Bindegewebe", "name": "Glisson-Kapsel", "icon": "🩺" },
+      { "x": 3, "y": 4, "visible": true,  "category": "Gefäßsystem", "name": "Leberarterie", "icon": "🩸" },
+      { "x": 4, "y": 4, "visible": false, "category": "Gefäßsystem", "name": "Pfortader", "icon": "🩸" },
+      { "x": 5, "y": 4, "visible": true,  "category": "Gallenwege", "name": "Gallengang", "icon": "🔶" },
+      { "x": 6, "y": 4, "visible": false, "category": "Organ", "name": "Gallenblase", "icon": "🍃" },
+      { "x": 7, "y": 4, "visible": true,  "category": "Pathologie", "name": "Tumorlokalisation", "icon": "⚠️" },
+      { "x": 8, "y": 4, "visible": false, "category": "Anatomie – Leber", "name": "Parenchym", "icon": "🍃" },
+      { "x": 9, "y": 4, "visible": true,  "category": "OP Verfahren", "name": "Resektionsrand", "icon": "🔪" },
+      { "x": 5, "y": 5, "visible": false, "category": "OP Verfahren", "name": "Blutstillung", "icon": "🩹" },
+      { "x": 5, "y": 6, "visible": true,  "category": "OP Verfahren", "name": "Nahttechnik", "icon": "🪡" },
+      { "x": 5, "y": 7, "visible": false, "category": "Bildgebung", "name": "Intraoperative Ultraschall", "icon": "🩻" },
+      { "x": 5, "y": 8, "visible": true,  "category": "Ergebnis", "name": "Chirurgischer Erfolg", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": false, "category": "Diagnostik", "name": "Vorerkrankungscheck", "icon": "🩺" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Anatomie", "name": "Magenwand", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Histologie", "name": "Belegzellen", "icon": "🔬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Physiologie", "name": "Säuresekretion", "icon": "💧" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "PPI (Omeprazol)", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Physiologie", "name": "Schleimhautschutz", "icon": "🛡️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Reparatur", "name": "Heilungsprozess", "icon": "🩹" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Anatomie – Atemwege", "name": "Bronchialbaum", "icon": "🫁" },
+      { "x": 1, "y": 2, "visible": false, "category": "Physiologie", "name": "Mukosalsekret", "icon": "💧" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Pathogen", "name": "Streptococcus pneumoniae", "icon": "🦠" },
+      { "x": 1, "y": 4, "visible": false, "category": "Pathologie", "name": "Entzündungsreaktion", "icon": "🔥" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Pathologie", "name": "Alveolarer Schaden", "icon": "⚠️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Immunologie", "name": "Immunantwort", "icon": "🛡️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Anatomie – Lunge", "name": "Lungenparenchym", "icon": "🫁" },
+      { "x": 4, "y": 1, "visible": false, "category": "Pathologie", "name": "Ödem", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Physiologie", "name": "Gasaustausch", "icon": "🌬️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Reparatur", "name": "Wiederherstellung", "icon": "🩹" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Knochen", "name": "Schädel", "icon": "🦴" },
+      { "x": 2, "y": 1, "visible": false, "category": "Bindegewebe", "name": "Dura mater", "icon": "🩺" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Bindegewebe", "name": "Arachnoidea", "icon": "🧵" },
+      { "x": 2, "y": 3, "visible": false, "category": "Organ", "name": "Gehirnparenchym", "icon": "🧠" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Muskulatur", "name": "M. temporalis", "icon": "💪" },
+      { "x": 4, "y": 1, "visible": false, "category": "OP Verfahren", "name": "Chirurgische Exposition", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Verfahren", "name": "Resektion", "icon": "🔪" },
+      { "x": 5, "y": 2, "visible": false, "category": "OP Verfahren", "name": "Nahttechnik", "icon": "🪡" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Postoperative Anatomie", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Anatomie", "name": "Nierenrinde", "icon": "🏥" },
+      { "x": 1, "y": 2, "visible": false, "category": "Mikroanatomie", "name": "Nephron", "icon": "🔬" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Mikroanatomie", "name": "Glomerulus", "icon": "🔬" },
+      { "x": 1, "y": 4, "visible": false, "category": "Mikroanatomie", "name": "Bowman'sche Kapsel", "icon": "🔬" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Mikroanatomie", "name": "Tubulus", "icon": "🔬" },
+      { "x": 2, "y": 1, "visible": false, "category": "Physiologie", "name": "Reninsekretion", "icon": "💧" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "ACE-Inhibitor (Enalapril)", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Gefäßsystem", "name": "Afferente Arteriole", "icon": "🩸" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Gefäßsystem", "name": "A. renalis", "icon": "🩸" },
+      { "x": 5, "y": 2, "visible": false, "category": "Gefäßsystem", "name": "V. renalis", "icon": "🩸" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Therapie", "name": "Dialyse", "icon": "🏥" },
+      { "x": 5, "y": 4, "visible": false, "category": "Physiologie", "name": "Elektrolytregulation", "icon": "⚖️" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Homöostase", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Nervensystem", "name": "Spinalnerven", "icon": "⚡" },
+      { "x": 2, "y": 1, "visible": false, "category": "Nervensystem", "name": "Dorsalwurzelganglion", "icon": "⚡" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Zentrales Nervensystem", "name": "Rückenmark", "icon": "🧠" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nervenbahn", "name": "Kortikospinaltrakt", "icon": "🔗" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nervensystem", "name": "Periphere Nerven", "icon": "⚡" },
+      { "x": 6, "y": 1, "visible": false, "category": "Physiologie", "name": "Synaptische Übertragung", "icon": "🔄" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Physiologie", "name": "Reizweiterleitung", "icon": "💡" },
+      { "x": 8, "y": 1, "visible": false, "category": "Physiologie", "name": "Reflexbogen", "icon": "🔄" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 4, "visible": true,  "category": "Knochen", "name": "Os coxae", "icon": "🦴" },
+      { "x": 2, "y": 4, "visible": false, "category": "Knochen", "name": "Ilium", "icon": "🦴" },
+      { "x": 3, "y": 4, "visible": true,  "category": "Knochen", "name": "Ischium", "icon": "🦴" },
+      { "x": 4, "y": 4, "visible": false, "category": "Knochen", "name": "Pubis", "icon": "🦴" },
+      { "x": 5, "y": 4, "visible": true,  "category": "Anatomie", "name": "Acetabulum", "icon": "🦴" },
+      { "x": 6, "y": 4, "visible": false, "category": "Bindegewebe", "name": "Labrum", "icon": "🩺" },
+      { "x": 7, "y": 4, "visible": true,  "category": "Bänder", "name": "Lig. iliofemorale", "icon": "🔗" },
+      { "x": 8, "y": 4, "visible": false, "category": "Bindegewebe", "name": "Kapsel", "icon": "🩺" },
+      { "x": 9, "y": 4, "visible": true,  "category": "Muskulatur", "name": "M. gluteus medius", "icon": "💪" },
+      { "x": 5, "y": 5, "visible": false, "category": "Nerv", "name": "N. gluteus superior", "icon": "⚡" },
+      { "x": 5, "y": 6, "visible": true,  "category": "Gefäßsystem", "name": "Gefäßversorgung", "icon": "🩸" },
+      { "x": 5, "y": 7, "visible": false, "category": "Pathologie", "name": "Osteoporose", "icon": "⚠️" },
+      { "x": 5, "y": 8, "visible": true,  "category": "Ergebnis", "name": "Skelettstabilität", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": false, "category": "Diagnostik", "name": "Präoperative Bildgebung", "icon": "🩻" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Anatomie", "name": "Appendix vermiformis", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Immunanatomie", "name": "Lymphfollikel", "icon": "🔬" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Pathologie", "name": "Appendizitis", "icon": "🔥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Antibiotikum (Metronidazol)", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "OP Verfahren", "name": "Chirurgische Appendektomie", "icon": "🔪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Rehabilitation", "name": "Postoperative Heilung", "icon": "🩹" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Knochen", "name": "Wirbelsäule", "icon": "🦴" },
+      { "x": 1, "y": 2, "visible": false, "category": "Knorpel", "name": "Bandscheiben", "icon": "🎋" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Nerv", "name": "Rückenmark", "icon": "⚡" },
+      { "x": 1, "y": 4, "visible": false, "category": "Anatomie", "name": "Ramus", "icon": "🔶" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Gelenk", "name": "Sacroiliacalgelenk", "icon": "🔗" },
+      { "x": 2, "y": 1, "visible": false, "category": "Muskulatur", "name": "M. erector spinae", "icon": "💪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nerv", "name": "N. lumbalis", "icon": "⚡" },
+      { "x": 4, "y": 1, "visible": false, "category": "Gefäßsystem", "name": "A. iliolumbalis", "icon": "🩸" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Funktion", "name": "Haltungskontrolle", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Physiologie", "name": "Bewegungskoordination", "icon": "🔄" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Anatomie", "name": "Handfläche", "icon": "✋" },
+      { "x": 2, "y": 1, "visible": false, "category": "Histologie", "name": "Dermis", "icon": "🔬" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Muskulatur", "name": "M. palmaris longus", "icon": "💪" },
+      { "x": 2, "y": 3, "visible": false, "category": "Anatomie", "name": "Sehnenansatz", "icon": "🦴" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Muskulatur", "name": "M. flexor digitorum", "icon": "💪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nerv", "name": "N. ulnaris", "icon": "⚡" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Knochen", "name": "Phalangen", "icon": "🦴" },
+      { "x": 5, "y": 2, "visible": false, "category": "Bindegewebe", "name": "Gelenkkapsel", "icon": "🩺" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Funktion", "name": "Feinmotorik", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Anatomie", "name": "Herzwand", "icon": "❤️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Muskulatur", "name": "Myokard", "icon": "💪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Bindegewebe", "name": "Endokard", "icon": "🩺" },
+      { "x": 1, "y": 4, "visible": false, "category": "Gefäßsystem", "name": "Koronararterie", "icon": "🩸" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Pathologie", "name": "Atherosklerose", "icon": "⚠️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Pathologie", "name": "Lipidspeicherung", "icon": "🍔" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Statin (Atorvastatin)", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Physiologie", "name": "Blutdruckregulation", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Anatomie", "name": "Herzklappe", "icon": "🔰" },
+      { "x": 5, "y": 2, "visible": false, "category": "Anatomie", "name": "Ventrikel", "icon": "🩺" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Physiologie", "name": "Elektrophysiologie", "icon": "⚡" },
+      { "x": 5, "y": 4, "visible": false, "category": "Physiologie", "name": "Kammererregung", "icon": "🔄" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Kardiovaskuläre Stabilität", "icon": "✅" }
+    ]
+  }
+]

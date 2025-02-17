@@ -1,0 +1,9 @@
+{
+    "logicSequences": [
+      {
+        "sequence": ["Muskel", "Knochen", "Nerv"],
+        "description": "Beispielsequenz für die automatische Levelgenerierung."
+      }
+    ]
+  }
+  

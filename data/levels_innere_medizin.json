@@ -1,0 +1,441 @@
+[
+  {
+    "id": 1,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Akute Brustschmerzen", "icon": "❤️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "ST-Hebungs-EKG", "icon": "📈" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labordiagnostik", "name": "Troponin-Anstieg", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Bildgebung", "name": "Koronarangiographie", "icon": "🩻" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Stentimplantation", "icon": "🔧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Thrombozytenaggregationshemmer", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "PTCA", "icon": "💉" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Herzrehabilitation", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Herzfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 2,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Bauchschmerz rechts", "icon": "🤕" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Fieber", "icon": "🌡️" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Labordiagnostik", "name": "Leukozytose", "icon": "🧪" },
+      { "x": 2, "y": 3, "visible": false, "category": "Bildgebung", "name": "Ultraschall Abdomen", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Appendizitis", "icon": "🔥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Laparoskopie", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Operation", "name": "Appendektomie", "icon": "✂️" },
+      { "x": 5, "y": 2, "visible": false, "category": "Therapie", "name": "Antibiotikatherapie", "icon": "💊" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Postoperative Genesung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 3,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Polyurie", "icon": "💧" },
+      { "x": 1, "y": 2, "visible": false, "category": "Symptom", "name": "Polydipsie", "icon": "💦" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Hyperglykämie", "icon": "📊" },
+      { "x": 1, "y": 4, "visible": false, "category": "Labordiagnostik", "name": "Erhöhter HbA1c", "icon": "🧪" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Diagnose", "name": "Diabetes mellitus Typ 2", "icon": "⚠️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Lebensstiländerung", "icon": "🏃‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "Metformin", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Ernährungsberatung", "icon": "🥗" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Kontrolle", "name": "Blutzuckerkontrolle", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": false, "category": "Intervention", "name": "Insulintherapie", "icon": "💉" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Langzeitmanagement", "icon": "🏥" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Glykämische Stabilität", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 4,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Chronischer Husten", "icon": "🤧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Spirometrie", "icon": "📉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "COPD", "icon": "💨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Inhalationstherapie", "icon": "💨" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Bronchodilatator", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Lungenfunktionskontrolle", "icon": "📋" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verbesserte Atemfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 5,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Fieber", "icon": "🌡️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Symptom", "name": "Schüttelfrost", "icon": "❄️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Sepsis", "icon": "🚨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Labordiagnostik", "name": "Positive Blutkultur", "icon": "🧪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Breitbandantibiotika", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Intervention", "name": "Vasopressoren", "icon": "💉" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Intensiv", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Stabilisierte Vitalparameter", "icon": "📊" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Überleben", "icon": "🏆" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Therapieanpassung", "icon": "🔄" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Kontrolle", "name": "Follow-up", "icon": "📋" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 6,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Oligurie", "icon": "💧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labordiagnostik", "name": "Kreatininanstieg", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Akutes Nierenversagen", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Flüssigkeitsmanagement", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Dialyse", "icon": "💉" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verbesserte Nierenfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 7,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Gewichtsverlust", "icon": "⚖️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Symptom", "name": "Hitzewallungen", "icon": "🔥" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labordiagnostik", "name": "Niedriges TSH", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Hyperthyreose", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Thionamide", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Beta-Blocker", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Radiojodtherapie", "icon": "🔆" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "TSH-Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Schilddrüsenfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 8,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Hohes Fieber", "icon": "🌡️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Röntgen Thorax", "icon": "🩻" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Pneumonie", "icon": "🔥" },
+      { "x": 2, "y": 3, "visible": false, "category": "Labordiagnostik", "name": "CRP-Erhöhung", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Antibiotikatherapie", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Sauerstoffgabe", "icon": "💨" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Lungenfunktionskontrolle", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": false, "category": "Ergebnis", "name": "Verbesserte Atmung", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 9,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Dyspnoe", "icon": "😮‍💨" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labordiagnostik", "name": "BNP-Erhöhung", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Herzinsuffizienz", "icon": "💔" },
+      { "x": 1, "y": 4, "visible": false, "category": "Therapie", "name": "ACE-Hemmer", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Beta-Blocker", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Intervention", "name": "CRT", "icon": "⚙️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Diuretika", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Lebensstiländerung", "icon": "🏃‍♂️" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Kontrolle", "name": "EKG-Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Herzfunktion", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📆" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 10,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Gelenkschmerzen", "icon": "🤕" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labordiagnostik", "name": "ANA-positiv", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Systemischer Lupus erythematodes", "icon": "🔥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Glukokortikoide", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Immunmodulatoren", "icon": "💉" },
+      { "x": 6, "y": 1, "visible": false, "category": "Therapie", "name": "Antimalariamittel", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📋" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verbesserte Lebensqualität", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 11,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Aszites", "icon": "💧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labordiagnostik", "name": "Abnorme Leberwerte", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Leberzirrhose", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ursache", "name": "Alkoholkonsum", "icon": "🍷" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Diuretika", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Intervention", "name": "Parazentese", "icon": "💉" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Medikament", "name": "Beta-Blocker", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Therapie", "name": "Ernährungsberatung", "icon": "🥗" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Leberwerte-Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Leberfunktion", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 12,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Diagnose", "name": "HIV-Test", "icon": "🧪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labordiagnostik", "name": "ELISA positiv", "icon": "🔍" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bestätigung", "name": "Western Blot", "icon": "🧬" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Antiretrovirale Therapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "RT-Hemmer", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Virale Suppression", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 13,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Meläna", "icon": "🍂" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Endoskopie", "icon": "🔍" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Ulcus ventriculi", "icon": "🔥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Therapie", "name": "H2-Blocker", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Endoskopische Therapie", "icon": "🔪" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "PPI", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Ernährungsumstellung", "icon": "🥗" },
+      { "x": 4, "y": 1, "visible": false, "category": "Kontrolle", "name": "Follow-up Endoskopie", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Blutstillung", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 14,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Blutiger Durchfall", "icon": "💩" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Endoskopie", "icon": "🔍" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Colitis ulcerosa", "icon": "🔥" },
+      { "x": 2, "y": 3, "visible": false, "category": "Labordiagnostik", "name": "CRP-Erhöhung", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Mesalazin", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Kortikosteroide", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Biologika", "icon": "💉" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Remission", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 15,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Kopfschmerzen", "icon": "🤕" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Blutdruckmessung hoch", "icon": "📈" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Hypertonie", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Labordiagnostik", "name": "LDL-Erhöhung", "icon": "🧪" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Diagnose", "name": "Arteriosklerose", "icon": "🩺" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Lebensstiländerung", "icon": "🏃‍♂️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Medikament", "name": "ACE-Hemmer", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Medikament", "name": "Diuretika", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Beta-Blocker", "icon": "💊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Intervention", "name": "Stentimplantation", "icon": "🔧" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Nachsorge", "name": "Blutdruckkontrolle", "icon": "📋" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Ergebnis", "name": "Stabile Blutdruckwerte", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 16,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Plötzliche Schwäche", "icon": "😨" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "CT des Kopfes", "icon": "🩻" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Ischämischer Schlaganfall", "icon": "🧠" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Thrombolyse", "icon": "💉" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Antikoagulation", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Nachsorge", "name": "Rehabilitation", "icon": "🏃‍♂️" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Kontrolle", "name": "Neurologische Untersuchung", "icon": "📋" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Funktionelle Verbesserung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 17,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Palpitationen", "icon": "💓" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "EKG-Unregelmäßigkeit", "icon": "📈" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Vorhofflimmern", "icon": "⚡" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Antikoagulation", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Kardioversion", "icon": "🔧" },
+      { "x": 6, "y": 1, "visible": false, "category": "Medikament", "name": "Beta-Blocker", "icon": "💊" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Therapie", "name": "Amiodaron", "icon": "💊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Nachsorge", "name": "Langzeitmonitoring", "icon": "📆" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Kontrolle", "name": "EKG-Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenschulung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Rhythmusstabilität", "icon": "✅" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 18,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Plötzliche Dyspnoe", "icon": "😮‍💨" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labordiagnostik", "name": "D-Dimer erhöht", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Bildgebung", "name": "CT-Angiographie", "icon": "🩻" },
+      { "x": 4, "y": 1, "visible": false, "category": "Diagnose", "name": "Lungenembolie", "icon": "💥" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Therapie", "name": "Antikoagulation", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Lungenfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 19,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Beinschwellung", "icon": "🦵" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Doppler Ultraschall", "icon": "🔊" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Thrombose", "icon": "⚠️" },
+      { "x": 1, "y": 4, "visible": false, "category": "Therapie", "name": "Antikoagulation", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Thrombolyse", "icon": "💉" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Heparin", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Gerinnungsmanagement", "icon": "⚙️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "Gerinnungskontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Reduzierte Thrombusgröße", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 20,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Oberbauchschmerz", "icon": "😣" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Endoskopie", "icon": "🔍" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Diagnose", "name": "Ulcus ventriculi", "icon": "🔥" },
+      { "x": 2, "y": 3, "visible": false, "category": "Labordiagnostik", "name": "Helicobacter pylori positiv", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Protonenpumpenhemmer", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Endoskopische Therapie", "icon": "🔪" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Antibiotika", "icon": "💊" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Follow-up Endoskopie", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Heilung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 21,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Akute Brustschmerzen", "icon": "❤️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "ST-Hebungs-EKG", "icon": "📈" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labor", "name": "Erhöhtes Troponin", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Bildgebung", "name": "Koronarangiographie", "icon": "🩻" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Intervention", "name": "Stentimplantation", "icon": "🔧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Therapie", "name": "Thrombolyse", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Herzrehabilitation", "icon": "🏃‍♂️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Nachsorge", "name": "EKG-Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Prognose", "name": "Verbesserte Herzfunktion", "icon": "✅" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 22,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Rechter Unterbauchschmerz", "icon": "🤕" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Laborbefund", "icon": "🧪" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Bildgebung", "name": "Abdominalultraschall", "icon": "🩻" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Akute Appendizitis", "icon": "🔥" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Intervention", "name": "Laparoskopische Appendektomie", "icon": "🔪" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Antibiotikatherapie", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Rehabilitation", "name": "Postoperative Erholung", "icon": "🏥" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Kontrolluntersuchung", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Stabile Genesung", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 23,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Polyurie", "icon": "💧" },
+      { "x": 1, "y": 2, "visible": false, "category": "Diagnose", "name": "Hyperglykämie", "icon": "📊" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Labordiagnostik", "name": "HbA1c Messung", "icon": "🧪" },
+      { "x": 1, "y": 4, "visible": false, "category": "Diagnose", "name": "Diabetes mellitus Typ 2", "icon": "⚠️" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Lebensstiländerung", "icon": "🏃‍♂️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Medikament", "name": "Metformin", "icon": "💊" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Ernährungsberatung", "icon": "🥗" },
+      { "x": 4, "y": 1, "visible": false, "category": "Kontrolle", "name": "Blutzuckerkontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Glykämische Stabilität", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Regelmäßige Kontrollen", "icon": "🏥" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Prävention", "name": "Komplikationsvorsorge", "icon": "🔒" },
+      { "x": 5, "y": 4, "visible": false, "category": "Feedback", "name": "Patientenfeedback", "icon": "💬" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 24,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Chronischer Husten", "icon": "🤧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Spirometrie", "icon": "📉" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "COPD", "icon": "💨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Inhalationstherapie", "icon": "💨" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Medikament", "name": "Bronchodilatator", "icon": "💊" },
+      { "x": 6, "y": 1, "visible": false, "category": "Therapie", "name": "Physiotherapie", "icon": "🏃‍♂️" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Lungenfunktionskontrolle", "icon": "📋" },
+      { "x": 8, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verbesserte Atemfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 25,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Fieber", "icon": "🌡️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Blutkultur", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Sepsis", "icon": "🚨" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Breitbandantibiotika", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Vasopressoren", "icon": "💉" },
+      { "x": 6, "y": 1, "visible": false, "category": "Intensiv", "name": "Intensivüberwachung", "icon": "🏥" },
+      { "x": 7, "y": 1, "visible": true,  "category": "Kontrolle", "name": "Vitalparameter", "icon": "📊" },
+      { "x": 8, "y": 1, "visible": false, "category": "Feedback", "name": "Therapieanpassung", "icon": "🔄" },
+      { "x": 9, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Stabile Situation", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Nachsorge", "name": "Follow-up", "icon": "📋" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Prognose", "icon": "👍" },
+      { "x": 5, "y": 4, "visible": false, "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 26,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Oligurie", "icon": "💧" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labordiagnostik", "name": "Kreatininanstieg", "icon": "🧪" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Akutes Nierenversagen", "icon": "⚠️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "Flüssigkeitsmanagement", "icon": "💧" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Dialyse", "icon": "💉" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Verbesserte Nierenfunktion", "icon": "✅" }
+    ]
+  },
+  {
+    "id": 27,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Gewichtsverlust", "icon": "⚖️" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labordiagnostik", "name": "TSH-Messung", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Hyperthyreose", "icon": "🔥" },
+      { "x": 1, "y": 4, "visible": false, "category": "Therapie", "name": "Thionamide", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Beta-Blocker", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Intervention", "name": "Radiojodtherapie", "icon": "🔆" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nachsorge", "name": "TSH-Kontrolle", "icon": "📋" },
+      { "x": 4, "y": 1, "visible": false, "category": "Ergebnis", "name": "Stabile Schilddrüsenfunktion", "icon": "✅" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Feedback", "name": "Lebensstilberatung", "icon": "🏋️" },
+      { "x": 6, "y": 1, "visible": false, "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 28,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Hohes Fieber", "icon": "🌡️" },
+      { "x": 2, "y": 1, "visible": false, "category": "Labordiagnostik", "name": "CRP-Erhöhung", "icon": "🧪" },
+      { "x": 2, "y": 2, "visible": true,  "category": "Bildgebung", "name": "Thorax-Röntgen", "icon": "🩻" },
+      { "x": 2, "y": 3, "visible": false, "category": "Diagnose", "name": "Lungenentzündung", "icon": "🔥" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Therapie", "name": "Antibiotikatherapie", "icon": "💊" },
+      { "x": 4, "y": 1, "visible": false, "category": "Intervention", "name": "Sauerstoffgabe", "icon": "💨" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Lungenfunktionskontrolle", "icon": "📋" },
+      { "x": 5, "y": 2, "visible": false, "category": "Ergebnis", "name": "Erholte Atmung", "icon": "✅" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Abschluss", "name": "Entlassung", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 29,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Dyspnoe", "icon": "😮‍💨" },
+      { "x": 1, "y": 2, "visible": false, "category": "Labordiagnostik", "name": "BNP-Messung", "icon": "🧪" },
+      { "x": 1, "y": 3, "visible": true,  "category": "Diagnose", "name": "Herzinsuffizienz", "icon": "💔" },
+      { "x": 1, "y": 4, "visible": false, "category": "Therapie", "name": "ACE-Hemmer", "icon": "💊" },
+      { "x": 1, "y": 5, "visible": true,  "category": "Therapie", "name": "Beta-Blocker", "icon": "💊" },
+      { "x": 2, "y": 1, "visible": false, "category": "Intervention", "name": "CRT", "icon": "⚙️" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Nachsorge", "name": "Lebensstiländerung", "icon": "🏃‍♂️" },
+      { "x": 4, "y": 1, "visible": false, "category": "Kontrolle", "name": "EKG-Kontrolle", "icon": "📋" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Ergebnis", "name": "Verbesserte Funktion", "icon": "✅" },
+      { "x": 5, "y": 2, "visible": false, "category": "Feedback", "name": "Patientenberatung", "icon": "💬" },
+      { "x": 5, "y": 3, "visible": true,  "category": "Prävention", "name": "Gewichtsmanagement", "icon": "⚖️" },
+      { "x": 5, "y": 4, "visible": false, "category": "Monitoring", "name": "Regelmäßige Checks", "icon": "📊" },
+      { "x": 5, "y": 5, "visible": true,  "category": "Abschluss", "name": "Langzeitmanagement", "icon": "🏁" }
+    ]
+  },
+  {
+    "id": 30,
+    "blocks": [
+      { "x": 1, "y": 1, "visible": true,  "category": "Symptom", "name": "Meläna", "icon": "🍂" },
+      { "x": 2, "y": 1, "visible": false, "category": "Diagnose", "name": "Endoskopie", "icon": "🔍" },
+      { "x": 3, "y": 1, "visible": true,  "category": "Diagnose", "name": "Ulcus ventriculi", "icon": "🔥" },
+      { "x": 4, "y": 1, "visible": false, "category": "Therapie", "name": "H2-Blocker", "icon": "💊" },
+      { "x": 5, "y": 1, "visible": true,  "category": "Intervention", "name": "Endoskopische Therapie", "icon": "🔪" },
+      { "x": 6, "y": 1, "visible": false, "category": "Ergebnis", "name": "Blutstillung", "icon": "✅" }
+    ]
+  }
+]

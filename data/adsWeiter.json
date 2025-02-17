@@ -1,0 +1,16 @@
+[
+    {
+      "image": "assets/images/ad3.jpg",
+      "title": "Weitere spannende Projekte",
+      "subtitle": "Entdecke neue Wege in der Medizin",
+      "link": "https://example.com/projekte"
+    },
+    {
+        "image": "assets/images/ad1.jpg",
+        "title": "Unterstütze unser Projekt",
+        "subtitle": "Spende, wenn dir das Spiel gefällt.",
+        "link": "https://example.com/spende",
+        "html": "<!-- Externe Adsense Anzeige --><ins class=\"adsbygoogle\" style=\"display:inline-block;width:300px;height:250px\" data-ad-client=\"ca-pub-1234567890\" data-ad-slot=\"9876543210\"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>"
+    }
+  ]
+  

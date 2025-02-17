@@ -1,0 +1,276 @@
+/* Basis-Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Scrollleisten in Containern ausblenden */
+  #game-area, #blocks-container {
+    scrollbar-width: none; /* Firefox */
+  }
+  #game-area::-webkit-scrollbar, #blocks-container::-webkit-scrollbar {
+    display: none; /* Webkit */
+  }
+  
+  /* Modale Popups */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-content {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  /* Minimalistische Button-Stile */
+  .btn {
+    background: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+  }
+  .btn:hover {
+    background: #e0e0e0;
+  }
+  
+  /* Header / Navbar */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4A90E2;
+    color: #fff;
+  }
+  .header-left, .header-right {
+    flex: 1;
+  }
+  .header-left {
+    text-align: left;
+  }
+  .header-right {
+    text-align: right;
+  }
+  
+  /* Home-Button: moderner, nur weiße Schrift */
+  .home-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  /* Hilfebutton in Header */
+  .help-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 10px;
+  }
+  
+  /* Lebensanzeige */
+  #lives-text {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  /* Container für Sidebar und Spielinhalt */
+  #game-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Sidebar für Fachrichtungen (schlicht, ohne eigenen Hintergrund) */
+  #category-sidebar {
+    flex: 0 0 150px;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+  }
+  #category-sidebar .category-btn {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  #category-sidebar .category-btn:hover,
+  #category-sidebar .category-btn.active {
+    background: #ddd;
+  }
+  
+  /* Spielinhalt */
+  #game-content {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  /* Spielfeld */
+  #game-area {
+    position: relative;
+    overflow: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    background: #fafafa;
+  }
+  
+  /* Blöcke – alle Blöcke erhalten den Hintergrund #dff1ff und werden absolut positioniert */
+  .game-block {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #dff1ff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 5px;
+  }
+  .empty-slot {
+    border: 1px dashed #aaa;
+    background: #fff;
+  }
+  
+  /* Zustände: korrekt = grün, inkorrekt = rot */
+  .game-block.correct {
+    border: 2px solid green;
+  }
+  .game-block.incorrect {
+    border: 2px solid red;
+  }
+  
+  /* Draggable Blöcke (im Container, statisch) */
+  .draggable-block {
+    width: 80px;
+    height: 80px;
+    background: #dff1ff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 5px;
+    cursor: grab;
+    margin: 5px;
+  }
+  
+  /* Blocktexte: automatischer Umbruch */
+  .game-block span.block-name,
+  .draggable-block span.block-category {
+    overflow-wrap: break-word;
+    word-break: break-all;
+  }
+  
+  /* Container für draggable Blöcke */
+  #blocks-container {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background: transparent;
+    overflow: auto;
+  }
+  
+  /* AdCard Styling – Bild links, Text rechts */
+  .card, #ad-card-main {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    cursor: pointer;
+    margin: 10px auto;
+  }
+  .ad-card-container {
+    display: flex;
+    align-items: center;
+  }
+  .ad-card-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .ad-card-text h3 {
+    margin-bottom: 5px;
+  }
+  .ad-card-text p {
+    margin: 0;
+  }
+  
+  /* Kontaktinfo */
+  #contact-info {
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    margin: 20px 0;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    background: #f7f7f7;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+  }
+  footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive: Bei kleinen Bildschirmen wandert die Sidebar über den Inhalt */
+  @media (max-width: 600px) {
+    #game-container {
+      flex-direction: column;
+    }
+    #category-sidebar {
+      flex: 1 0 auto;
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  
