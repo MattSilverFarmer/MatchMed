@@ -121,10 +121,92 @@ function initDraggableBlocks(level) {
       blockDiv.innerHTML = `<span class="block-icon">${block.icon}</span>
                             <span class="block-category">${block.category}</span>`;
       blockDiv.addEventListener('dragstart', dragBlock);
+
+      blockDiv.addEventListener('touchstart', handleTouchStart, false);
+      blockDiv.addEventListener('touchmove', handleTouchMove, false);
+      blockDiv.addEventListener('touchend', handleTouchEnd, false);
+      
       container.appendChild(blockDiv);
     }
   });
 }
+
+
+// Touch-Event Handler für mobile Drag&Drop
+
+function handleTouchStart(e) {
+    e.preventDefault();
+    const touch = e.touches[0];
+    const target = e.currentTarget;
+    // Speichere den Startpunkt
+    target.dataset.startX = touch.clientX;
+    target.dataset.startY = touch.clientY;
+    // Speichere die aktuelle Position (relativ zum Dokument)
+    const rect = target.getBoundingClientRect();
+    target.dataset.origX = rect.left;
+    target.dataset.origY = rect.top;
+    // Setze das Element in absolute Position
+    target.style.position = "absolute";
+  }
+  
+  function handleTouchMove(e) {
+    e.preventDefault();
+    const touch = e.touches[0];
+    const target = e.currentTarget;
+    const deltaX = touch.clientX - target.dataset.startX;
+    const deltaY = touch.clientY - target.dataset.startY;
+    target.style.left = (parseFloat(target.dataset.origX) + deltaX) + "px";
+    target.style.top = (parseFloat(target.dataset.origY) + deltaY) + "px";
+  }
+  
+  function handleTouchEnd(e) {
+    e.preventDefault();
+    const target = e.currentTarget;
+    // Prüfe, ob es einen Drop-Target (empty-slot) gibt, in dem das Element landet
+    const dropTargets = document.querySelectorAll(".empty-slot");
+    const targetRect = target.getBoundingClientRect();
+    let droppedOn = null;
+    dropTargets.forEach(slot => {
+      const slotRect = slot.getBoundingClientRect();
+      if (targetRect.left < slotRect.right &&
+          targetRect.right > slotRect.left &&
+          targetRect.top < slotRect.bottom &&
+          targetRect.bottom > slotRect.top) {
+        droppedOn = slot;
+      }
+    });
+    
+    if (droppedOn) {
+      const data = {
+        category: target.dataset.category,
+        name: target.dataset.name,
+        icon: target.querySelector('.block-icon') ? target.querySelector('.block-icon').textContent : "",
+        index: target.dataset.index
+      };
+      if (data.category === droppedOn.dataset.category) {
+        droppedOn.classList.remove("empty-slot");
+        droppedOn.classList.add("correct");
+        droppedOn.innerHTML = `<span class="block-icon">${data.icon}</span>
+                               <span class="block-name">${data.name}</span>`;
+        removeDraggableBlock(data.index);
+        remainingSlots--;
+        checkLevelComplete();
+      } else {
+        droppedOn.classList.add("incorrect");
+        setTimeout(() => { droppedOn.classList.remove("incorrect"); }, 1000);
+        lives--;
+        document.getElementById('lives-count').textContent = lives + " ❤️";
+        if (lives <= 0) {
+          endLevel(false);
+        }
+      }
+    }
+    // Setze die Position zurück, falls kein gültiger Drop erfolgte
+    target.style.left = "";
+    target.style.top = "";
+  }
+  
+
 
 function dragBlock(ev) {
   ev.dataTransfer.setData("text/plain", JSON.stringify({
