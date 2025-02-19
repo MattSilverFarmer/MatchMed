@@ -58,15 +58,37 @@
   
   /* Header / Navbar */
   header {
-    width: 100%;
+    /*width: 100%;*/
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 1.5em 2vw; /* relative Einheiten */
     background: #4A90E2;
     color: #fff;
   }
+
+  .logo {
+    display: inline-block;
+    line-height: 1.2;
+  }
+  
+  .logo-name {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 800;
+    color: #fff;
+  }
+  
+  .logo-claim {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+
   .header-left, .header-right {
     flex: 1;
   }
@@ -109,10 +131,29 @@
   
   /* Sidebar für Fachrichtungen (schlicht, ohne eigenen Hintergrund) */
   #category-sidebar {
+    display: none; /* Sidebar standardmäßig ausblenden */
+
     flex: 0 0 150px;
     padding: 10px;
     border-right: 1px solid #ddd;
   }
+
+  #toggle-sidebar {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  #toggle-sidebar:hover {
+    background-color: #fff;
+    color: #4A90E2;
+  }
+
+
   #category-sidebar .category-btn {
     display: block;
     width: 100%;
@@ -255,6 +296,7 @@
     background: #f7f7f7;
     border-top: 1px solid #ddd;
     margin-top: 40px;
+    
   }
   footer a {
     color: #333;
@@ -270,9 +312,11 @@
       flex-direction: column;
     }
     #category-sidebar {
-      flex: 1 0 auto;
+      flex: 1 0 auto; /* 1 0 auto*/
       border-right: none;
       border-bottom: 1px solid #ddd;
     }
+
+
   }
   

@@ -270,6 +270,8 @@ function endLevel(success) {
   
   if (success) {
     if (window.currentCategory === "Tageslevel") {
+        window.currentCategory = "Bonuslevel";
+
       resultTitle.textContent = "Tageslevel erfolgreich gelöst!";
       resultMessage.textContent = "Es gibt täglich ein neues Level. Möchtest du zusätzlich ein Bonuslevel spielen?";
       document.getElementById('result-next').textContent = "Bonuslevel spielen";
@@ -349,3 +351,4 @@ document.getElementById('result-next').addEventListener('click', function() {
   document.getElementById('result-popup').style.display = 'none';
   initGame();
 });
+
