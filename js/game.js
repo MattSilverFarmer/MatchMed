@@ -107,6 +107,43 @@ function renderGameArea(level) {
   drawConnections(level);
 }
 
+// === BEGINN: Neuer Code in initDraggableBlocks() ===
+function initDraggableBlocks(level) {
+    const container = document.getElementById('blocks-container');
+    container.innerHTML = "";
+    
+    // Erstelle ein Array von Objekten mit Blockdaten und Index, nur für nicht sichtbare Blöcke
+    let draggableBlocks = level.blocks
+      .map((block, idx) => ({ block, idx }))
+      .filter(item => !item.block.visible);
+    
+    // Mische das Array (Shuffle-Funktion wird genutzt)
+    shuffleArray(draggableBlocks);
+    
+    // Erzeuge die draggable Blöcke in der gemischten Reihenfolge
+    draggableBlocks.forEach(item => {
+      const { block, idx } = item;
+      const blockDiv = document.createElement('div');
+      blockDiv.classList.add('draggable-block');
+      blockDiv.draggable = true;
+      blockDiv.dataset.category = block.category;
+      blockDiv.dataset.name = block.name;
+      blockDiv.dataset.index = idx;
+      blockDiv.innerHTML = `<span class="block-icon">${block.icon}</span>
+                            <span class="block-category">${block.category}</span>`;
+      blockDiv.addEventListener('dragstart', dragBlock);
+      // Touch-Events für mobile Geräte
+      blockDiv.addEventListener('touchstart', handleTouchStart, false);
+      blockDiv.addEventListener('touchmove', handleTouchMove, false);
+      blockDiv.addEventListener('touchend', handleTouchEnd, false);
+      container.appendChild(blockDiv);
+    });
+  }
+  // === ENDE NEUER CODE ===
+  
+
+
+/*
 function initDraggableBlocks(level) {
   const container = document.getElementById('blocks-container');
   container.innerHTML = "";
@@ -130,7 +167,7 @@ function initDraggableBlocks(level) {
     }
   });
 }
-
+*/
 
 // Touch-Event Handler für mobile Drag&Drop
 
@@ -352,3 +389,13 @@ document.getElementById('result-next').addEventListener('click', function() {
   initGame();
 });
 
+// === NEU: Shuffle-Funktion hinzufügen ===
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+  // === ENDE NEU ===
+  
