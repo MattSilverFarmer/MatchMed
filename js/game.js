@@ -63,7 +63,7 @@ function initGame() {
 }
 
 function loadLevelObject(level) {
-  lives = 7;
+  lives = 5;
   document.getElementById('lives-count').textContent = lives + " ❤️";
   renderGameArea(level);
   initDraggableBlocks(level);
