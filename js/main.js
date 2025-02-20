@@ -7,9 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
   initGame();  // initGame() wird in game.js definiert und verwendet window.currentCategory
   loadAdCardMain();
 
-  setTimeout(adjustHeaderFooterWidth, 100);
+  setTimeout(adjustHeaderFooterWidth, 200);
   adjustHeaderFooterWidth();
   window.addEventListener("resize", adjustHeaderFooterWidth);
+  window.addEventListener("load", adjustHeaderFooterWidth);
 
 
   //initAds();
